@@ -1,13 +1,37 @@
 import { motion } from "motion/react";
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from "recharts";
 import { Download, Share2, Sparkles, Heart, Briefcase, Users, ArrowUpCircle, AlertTriangle, Music, Film, BookOpen, Quote } from "lucide-react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import html2canvas from "html2canvas";
 import { reportData as allReportData } from "../data/reportData";
 
 export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: string }, onBack: () => void }) {
   const cardRef = useRef<HTMLDivElement>(null);
+  const [isDownloading, setIsDownloading] = useState(false);
 
   const report = allReportData[data.mbti]?.[data.zodiac];
+
+  const handleDownload = async () => {
+    if (!cardRef.current) return;
+    try {
+      setIsDownloading(true);
+      const canvas = await html2canvas(cardRef.current, {
+        scale: 2, // High resolution
+        useCORS: true, // Allow external resources if any
+        backgroundColor: "#020617", // slate-950 to match background
+      });
+      const url = canvas.toDataURL("image/png", 1.0);
+      const link = document.createElement("a");
+      link.download = `我的灵魂报告-${data.mbti}-${data.zodiac}.png`;
+      link.href = url;
+      link.click();
+    } catch (error) {
+      console.error("生成长图失败:", error);
+      alert("生成长图失败，请稍后重试。");
+    } finally {
+      setIsDownloading(false);
+    }
+  };
 
   if (!report) {
     return (
@@ -68,13 +92,13 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
             </div>
 
             {/* Image Placeholder */}
-            <div className="w-full aspect-[4/3] sm:aspect-video rounded-3xl bg-slate-800 border border-slate-700/50 overflow-hidden relative group">
+            <div className="relative w-full max-w-xs sm:max-w-sm mx-auto aspect-square rounded-3xl bg-slate-800 border border-slate-700/50 overflow-hidden group shadow-2xl">
               <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-500">
                 <div className="w-16 h-16 rounded-2xl bg-slate-700/50 flex items-center justify-center mb-4 border border-slate-600/50 shadow-inner">
                   <span className="text-2xl font-serif italic text-slate-400">+</span>
                 </div>
                 <p className="text-sm font-medium">后期画像图位置</p>
-                <p className="text-xs opacity-60 mt-1">你的专属灵魂具象化</p>
+                <p className="text-xs opacity-60 mt-1">1:1 专属灵魂具象化</p>
               </div>
             </div>
           </motion.section>
@@ -316,9 +340,17 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
       
       {/* Module 8: Share Actions (Floating or bottom) */}
       <div className="max-w-2xl mx-auto mt-6 px-4 pb-12">
-        <button className="w-full sm:w-auto mx-auto flex items-center justify-center space-x-2 bg-white text-slate-900 hover:bg-slate-100 font-semibold py-4 px-8 rounded-2xl shadow-lg transition-all" onClick={() => alert('保存长图功能在实际环境中将使用 html2canvas 实现')}>
-          <Download className="w-5 h-5" />
-          <span>保存精美分享长图</span>
+        <button 
+          className="w-full sm:w-auto mx-auto flex items-center justify-center space-x-2 bg-white text-slate-900 hover:bg-slate-100 font-semibold py-4 px-8 rounded-2xl shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed" 
+          onClick={handleDownload}
+          disabled={isDownloading}
+        >
+          {isDownloading ? (
+            <div className="w-5 h-5 border-2 border-slate-900 border-t-transparent rounded-full animate-spin"></div>
+          ) : (
+            <Download className="w-5 h-5" />
+          )}
+          <span>{isDownloading ? '生成中...' : '保存精美分享长图'}</span>
         </button>
       </div>
 
