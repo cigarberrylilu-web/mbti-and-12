@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from "recharts";
 import { Download, Share2, Sparkles, Heart, Briefcase, Users, ArrowUpCircle, AlertTriangle, Music, Film, BookOpen, Quote } from "lucide-react";
 import { useRef, useState } from "react";
-import html2canvas from "html2canvas";
+import { toBlob } from "html-to-image";
 import { reportData as allReportData } from "../data/reportData";
 
 export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: string }, onBack: () => void }) {
@@ -12,23 +12,36 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
   const report = allReportData[data.mbti]?.[data.zodiac];
 
   const handleDownload = async () => {
-    if (!cardRef.current) return;
+    if (!cardRef.current || isDownloading) return;
     try {
       setIsDownloading(true);
-      const canvas = await html2canvas(cardRef.current, {
-        scale: 2, // High resolution
-        useCORS: true, // Allow external resources if any
-        backgroundColor: "#020617", // slate-950 to match background
+      const blob = await toBlob(cardRef.current, {
+        pixelRatio: 2,
+        backgroundColor: "#020617",
       });
-      const url = canvas.toDataURL("image/png", 1.0);
-      const link = document.createElement("a");
-      link.download = `我的灵魂报告-${data.mbti}-${data.zodiac}.png`;
-      link.href = url;
-      link.click();
+      if (!blob) throw new Error("生成图片失败");
+
+      // Use FileReader to convert blob to base64 for more reliable download
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const base64 = reader.result as string;
+        const link = document.createElement("a");
+        link.download = `我的灵魂报告-${data.mbti}-${data.zodiac}.png`;
+        link.href = base64;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        setIsDownloading(false);
+      };
+      reader.onerror = () => {
+        console.error("FileReader failed");
+        alert("生成长图失败，请稍后重试。");
+        setIsDownloading(false);
+      };
+      reader.readAsDataURL(blob);
     } catch (error) {
       console.error("生成长图失败:", error);
       alert("生成长图失败，请稍后重试。");
-    } finally {
       setIsDownloading(false);
     }
   };
@@ -58,14 +71,13 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
         </button>
       </div>
 
-      <div className="max-w-2xl mx-auto bg-slate-900 sm:rounded-[2.5rem] shadow-2xl shadow-purple-900/10 overflow-hidden border border-slate-800 relative" ref={cardRef}>
-        
-        {/* Background Gradients */}
-        <div className="absolute top-0 left-0 w-full h-[500px] bg-gradient-to-b from-purple-900/30 to-transparent pointer-events-none" />
-        <div className="absolute top-[-20%] right-[-10%] w-96 h-96 bg-fuchsia-600/20 blur-[120px] rounded-full pointer-events-none" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-96 h-96 bg-indigo-600/20 blur-[120px] rounded-full pointer-events-none" />
+      <div className="max-w-2xl mx-auto bg-slate-900 sm:rounded-[2.5rem] shadow-2xl shadow-purple-900/10 overflow-hidden border border-slate-800 relative">
 
-        <div className="relative z-10 px-6 sm:px-10 py-12 space-y-16">
+        <div className="relative z-10 px-6 sm:px-10 py-12 space-y-16" ref={cardRef}>
+          {/* Background Gradients */}
+          <div className="absolute top-0 left-0 w-full h-[500px] bg-gradient-to-b from-purple-900/30 to-transparent pointer-events-none" />
+          <div className="absolute top-[-20%] right-[-10%] w-96 h-96 bg-fuchsia-600/20 blur-[120px] rounded-full pointer-events-none" />
+          <div className="absolute bottom-[-10%] left-[-10%] w-96 h-96 bg-indigo-600/20 blur-[120px] rounded-full pointer-events-none" />
           
           {/* Module 1: Personality Tag Card */}
           <motion.section 
@@ -91,15 +103,14 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
               ))}
             </div>
 
-            {/* Image Placeholder */}
+            {/* Portrait Image */}
             <div className="relative w-full max-w-xs sm:max-w-sm mx-auto aspect-square rounded-3xl bg-slate-800 border border-slate-700/50 overflow-hidden group shadow-2xl">
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-500">
-                <div className="w-16 h-16 rounded-2xl bg-slate-700/50 flex items-center justify-center mb-4 border border-slate-600/50 shadow-inner">
-                  <span className="text-2xl font-serif italic text-slate-400">+</span>
-                </div>
-                <p className="text-sm font-medium">后期画像图位置</p>
-                <p className="text-xs opacity-60 mt-1">1:1 专属灵魂具象化</p>
-              </div>
+              <img
+                src={report.image}
+                alt={`${data.zodiac}INFJ 专属灵魂具象化`}
+                className="w-full h-full object-cover"
+                loading="eager"
+              />
             </div>
           </motion.section>
 

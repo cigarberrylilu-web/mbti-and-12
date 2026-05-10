@@ -2,6 +2,10 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, ArrowRight, Lock, Unlock } from "lucide-react";
 import { reportData } from "../data/reportData";
+import { getFingerprint, verifyStoredCode } from "../utils/fingerprint";
+
+// Cloudflare Workers API endpoint
+const API_BASE = "https://mbti-verify.your-subdomain.workers.dev"; // 部署后替换为实际地址
 
 export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zodiac: string }) => void }) {
   const [mbti, setMbti] = useState("");
@@ -9,20 +13,76 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
   const [step, setStep] = useState<"verify" | "start" | "form">("verify");
   const [code, setCode] = useState("");
   const [error, setError] = useState("");
+  const [verifying, setVerifying] = useState(false);
 
   useEffect(() => {
-    const verified = localStorage.getItem("soul_report_verified");
-    if (verified) {
-      setStep("start");
-    }
+    const checkVerification = async () => {
+      const isValid = await verifyStoredCode();
+      if (isValid) {
+        setStep("start");
+      }
+    };
+    checkVerification();
   }, []);
 
-  const handleVerify = () => {
-    if (code.trim().length > 0) {
-      localStorage.setItem("soul_report_verified", "true");
-      setStep("start");
-    } else {
+  const handleVerify = async () => {
+    const normalizedCode = code.trim().toUpperCase();
+
+    if (!normalizedCode) {
       setError("请输入校验码");
+      return;
+    }
+
+    setVerifying(true);
+    setError("");
+
+    try {
+      // Step 1: Verify code is valid and not used
+      const verifyRes = await fetch(`${API_BASE}/verify`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code: normalizedCode }),
+      });
+      const verifyData = await verifyRes.json();
+
+      if (!verifyData.valid) {
+        setError(
+          verifyData.reason === "Already used"
+            ? "该验证码已被使用"
+            : "校验码无效，请检查后重试"
+        );
+        setVerifying(false);
+        return;
+      }
+
+      // Step 2: Mark code as used
+      const useRes = await fetch(`${API_BASE}/use`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code: normalizedCode }),
+      });
+      const useData = await useRes.json();
+
+      if (!useData.success) {
+        setError("验证失败，请稍后重试");
+        setVerifying(false);
+        return;
+      }
+
+      // Step 3: Store locally with fingerprint
+      const fingerprint = await getFingerprint();
+      localStorage.setItem("soul_report_verified", JSON.stringify({
+        code: normalizedCode,
+        fingerprint,
+        timestamp: Date.now(),
+      }));
+
+      setVerifying(false);
+      setStep("start");
+    } catch (err) {
+      console.error("API error:", err);
+      setError("网络错误，请检查连接后重试");
+      setVerifying(false);
     }
   };
 
@@ -82,13 +142,23 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
                   {error && <p className="text-xs text-red-400 mt-1 ml-1">{error}</p>}
                 </div>
                 <motion.button
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
+                  whileHover={{ scale: verifying ? 1 : 1.02 }}
+                  whileTap={{ scale: verifying ? 1 : 0.98 }}
                   onClick={handleVerify}
-                  className="w-full bg-slate-800 hover:bg-slate-700 text-white font-medium py-4 rounded-xl shadow-lg transition-all border border-slate-700 flex items-center justify-center space-x-2"
+                  disabled={verifying}
+                  className="w-full bg-slate-800 hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-medium py-4 rounded-xl shadow-lg transition-all border border-slate-700 flex items-center justify-center space-x-2"
                 >
-                  <span>开始验证</span>
-                  <ArrowRight className="w-4 h-4" />
+                  {verifying ? (
+                    <>
+                      <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                      <span>验证中...</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>开始验证</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </>
+                  )}
                 </motion.button>
               </motion.div>
             )}

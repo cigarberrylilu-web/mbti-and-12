@@ -3,6 +3,7 @@ import React from 'react';
 export interface ReportContent {
   title: React.ReactNode;
   tags: string[];
+  image: string;
   radarDesc: string;
   radarData: { subject: string; A: number; fullMark: number }[];
   coreIntro: React.ReactNode;
@@ -34,6 +35,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#使命感', '#温柔的战士', '#理想点火器'],
+      image: "/portraits/aries.png",
       radarData: [
         { subject: '共情力', A: 90, fullMark: 100 },
         { subject: '表达欲', A: 70, fullMark: 100 },
@@ -132,6 +134,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#高贵的奉献者', '#聚光灯下的隐士', '#骄傲的庇护所'],
+      image: "/portraits/leo.png",
       radarData: [
         { subject: '共情力', A: 95, fullMark: 100 },
         { subject: '表达欲', A: 85, fullMark: 100 },
@@ -230,6 +233,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#追寻意义的吉普赛人', '#远方的哲学家', '#孤独的朝圣者'],
+      image: "/portraits/sagittarius.png",
       radarData: [
         { subject: '共情力', A: 85, fullMark: 100 },
         { subject: '表达欲', A: 80, fullMark: 100 },
@@ -328,6 +332,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#尘世中的修行者', '#固执的理想主义', '#唯美与深刻的统一'],
+      image: "/portraits/taurus.png",
       radarData: [
         { subject: '共情力', A: 90, fullMark: 100 },
         { subject: '表达欲', A: 50, fullMark: 100 },
@@ -426,6 +431,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#极致的完美主义', '#冷静的治愈者', '#灵魂精神洁癖'],
+      image: "/portraits/virgo.png",
       radarData: [
         { subject: '共情力', A: 85, fullMark: 100 },
         { subject: '表达欲', A: 60, fullMark: 100 },
@@ -524,6 +530,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#冰冷的慈悲', '#野心勃勃的救赎者', '#世俗与精神的双重王者'],
+      image: "/portraits/capricorn.png",
       radarData: [
         { subject: '共情力', A: 75, fullMark: 100 },
         { subject: '表达欲', A: 40, fullMark: 100 },
@@ -622,6 +629,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#千面观测者', '#高维度的游乐场', '#孤独的万花筒'],
+      image: "/portraits/gemini.png",
       radarData: [
         { subject: '共情力', A: 90, fullMark: 100 },
         { subject: '表达欲', A: 95, fullMark: 100 },
@@ -720,6 +728,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#端水的艺术家', '#温柔的疏离', '#戴着面具的神明'],
+      image: "/portraits/libra.png",
       radarData: [
         { subject: '共情力', A: 100, fullMark: 100 },
         { subject: '表达欲', A: 75, fullMark: 100 },
@@ -818,6 +827,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#冰冷的理想主义', '#抽离的悲悯', '#自带上帝视角'],
+      image: "/portraits/aquarius.png",
       radarData: [
         { subject: '共情力', A: 80, fullMark: 100 },
         { subject: '表达欲', A: 60, fullMark: 100 },
@@ -916,6 +926,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#无底的温柔', '#防御性精神洁癖', '#众生情绪容器'],
+      image: "/portraits/cancer.png",
       radarData: [
         { subject: '共情力', A: 100, fullMark: 100 },
         { subject: '表达欲', A: 50, fullMark: 100 },
@@ -1014,6 +1025,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#淬毒的读心者', '#废墟上的重建者', '#极端的纯粹与毁灭'],
+      image: "/portraits/scorpio.png",
       radarData: [
         { subject: '共情力', A: 95, fullMark: 100 },
         { subject: '表达欲', A: 30, fullMark: 100 },
@@ -1112,6 +1124,7 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         </>
       ),
       tags: ['#海王星的幻象', '#极致的悲悯', '#漫步云端的灵媒'],
+      image: "/portraits/pisces.png",
       radarData: [
         { subject: '共情力', A: 100, fullMark: 100 },
         { subject: '表达欲', A: 60, fullMark: 100 },
