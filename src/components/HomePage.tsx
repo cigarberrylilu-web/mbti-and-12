@@ -5,7 +5,8 @@ import { reportData } from "../data/reportData";
 import { getFingerprint, verifyStoredCode } from "../utils/fingerprint";
 
 // Cloudflare Workers API endpoint
-const API_BASE = "https://mbti-verify.your-subdomain.workers.dev"; // 部署后替换为实际地址
+const API_BASE = "https://black-resonance-1c47.cigarberry.workers.dev";
+ // 部署后替换为实际地址
 
 export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zodiac: string }) => void }) {
   const [mbti, setMbti] = useState("");
