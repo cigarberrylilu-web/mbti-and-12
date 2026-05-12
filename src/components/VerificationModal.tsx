@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Lock, Unlock, Sparkles } from 'lucide-react';
 import { VALID_CODES } from '../data/codes';
