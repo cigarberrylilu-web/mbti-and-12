@@ -8,6 +8,7 @@ import { reportData as allReportData } from "../data/reportData";
 export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: string }, onBack: () => void }) {
   const cardRef = useRef<HTMLDivElement>(null);
   const [isDownloading, setIsDownloading] = useState(false);
+  const [imgLoaded, setImgLoaded] = useState(false);
 
   const report = allReportData[data.mbti]?.[data.zodiac];
 
@@ -105,11 +106,17 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
 
             {/* Portrait Image */}
             <div className="relative w-full max-w-xs sm:max-w-sm mx-auto aspect-square rounded-3xl bg-slate-800 border border-slate-700/50 overflow-hidden group shadow-2xl">
+              {!imgLoaded && (
+                <div className="absolute inset-0 bg-gradient-to-br from-slate-700/40 via-slate-800 to-slate-900 animate-pulse flex items-center justify-center">
+                  <Sparkles className="w-10 h-10 text-slate-600 animate-pulse" />
+                </div>
+              )}
               <img
                 src={report.image}
-                alt={`${data.zodiac}INFJ 专属灵魂具象化`}
-                className="w-full h-full object-cover"
+                alt={`${data.zodiac}${data.mbti} 专属灵魂具象化`}
+                className={`w-full h-full object-cover transition-opacity duration-500 ${imgLoaded ? 'opacity-100' : 'opacity-0'}`}
                 loading="eager"
+                onLoad={() => setImgLoaded(true)}
               />
             </div>
           </motion.section>

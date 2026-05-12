@@ -212,15 +212,15 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
                       ▼
                     </div>
                   </div>
-                  {mbti && mbti !== "INFJ" && (
-                    <p className="text-xs text-amber-500 mt-1 ml-1">* 其他人格的深度报告正在加急解析中，本次抢先体验暂只开放 INFJ</p>
+                  {mbti && !zodiac && !reportData[mbti] && (
+                    <p className="text-xs text-amber-500 mt-1 ml-1">* 该人格的深度报告正在加急解析中</p>
                   )}
                 </div>
 
                 <div className="space-y-2 relative z-10">
                   <label className="text-sm font-medium text-slate-300 ml-1">你的星座</label>
                   <div className="relative">
-                    <select 
+                    <select
                       value={zodiac}
                       onChange={(e) => setZodiac(e.target.value)}
                       className={`w-full appearance-none bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-purple-500 transition-all font-medium ${!zodiac ? 'text-slate-400' : 'text-white'}`}
@@ -234,7 +234,7 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
                       ▼
                     </div>
                   </div>
-                  {!hasData && mbti === "INFJ" && zodiac && (
+                  {mbti && zodiac && !hasData && (
                     <p className="text-xs text-amber-500 mt-1 ml-1">* 该星座的深度报告正在加急编写中</p>
                   )}
                 </div>
