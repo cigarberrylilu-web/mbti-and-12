@@ -6,6 +6,22 @@ import { getFingerprint, verifyStoredCode } from "../utils/fingerprint";
 
 const API_BASE = "https://api.mbtinendiec.com";
 
+async function fetchWithRetry(url: string, options: RequestInit, timeoutMs = 12000, retries = 1): Promise<Response> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const res = await fetch(url, { ...options, signal: controller.signal });
+      clearTimeout(timer);
+      return res;
+    } catch (err) {
+      clearTimeout(timer);
+      if (attempt === retries) throw err;
+    }
+  }
+  throw new Error("unreachable");
+}
+
 export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zodiac: string }) => void }) {
   const [mbti, setMbti] = useState("");
   const [zodiac, setZodiac] = useState("");
@@ -13,6 +29,7 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
   const [code, setCode] = useState("");
   const [error, setError] = useState("");
   const [verifying, setVerifying] = useState(false);
+  const [verifyStatus, setVerifyStatus] = useState("");
 
   useEffect(() => {
     const checkVerification = async () => {
@@ -34,10 +51,15 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
 
     setVerifying(true);
     setError("");
+    setVerifyStatus("");
+
+    const slowTimer = setTimeout(() => {
+      setVerifyStatus("网络较慢，正在连接服务器，请稍候");
+    }, 3000);
 
     try {
       // Step 1: Verify code is valid and not used
-      const verifyRes = await fetch(`${API_BASE}/verify`, {
+      const verifyRes = await fetchWithRetry(`${API_BASE}/verify`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code: normalizedCode }),
@@ -45,17 +67,19 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
       const verifyData = await verifyRes.json();
 
       if (!verifyData.valid) {
+        clearTimeout(slowTimer);
         setError(
           verifyData.reason === "Already used"
             ? "该验证码已被使用"
             : "校验码无效，请检查后重试"
         );
         setVerifying(false);
+        setVerifyStatus("");
         return;
       }
 
       // Step 2: Mark code as used
-      const useRes = await fetch(`${API_BASE}/use`, {
+      const useRes = await fetchWithRetry(`${API_BASE}/use`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code: normalizedCode }),
@@ -63,8 +87,10 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
       const useData = await useRes.json();
 
       if (!useData.success) {
+        clearTimeout(slowTimer);
         setError("验证失败，请稍后重试");
         setVerifying(false);
+        setVerifyStatus("");
         return;
       }
 
@@ -76,12 +102,16 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
         timestamp: Date.now(),
       }));
 
+      clearTimeout(slowTimer);
       setVerifying(false);
+      setVerifyStatus("");
       setStep("start");
     } catch (err) {
+      clearTimeout(slowTimer);
       console.error("API error:", err);
       setError("网络错误，请检查连接后重试");
       setVerifying(false);
+      setVerifyStatus("");
     }
   };
 
@@ -159,6 +189,9 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
                     </>
                   )}
                 </motion.button>
+                {verifyStatus && (
+                  <p className="text-xs text-slate-400 text-center -mt-2">{verifyStatus}</p>
+                )}
               </motion.div>
             )}
 
