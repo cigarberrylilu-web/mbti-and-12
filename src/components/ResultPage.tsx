@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from "recharts";
-import { Download, Share2, Sparkles, Heart, Briefcase, Users, ArrowUpCircle, AlertTriangle, Music, Film, BookOpen, Quote } from "lucide-react";
+import { Download, Sparkles, Heart, Briefcase, Users, ArrowUpCircle, AlertTriangle, Music, Film, BookOpen, Quote, Gift, X, Star, MessageCircle, CheckCircle } from "lucide-react";
 import { useRef, useState } from "react";
 import { toBlob } from "html-to-image";
 import { reportData as allReportData } from "../data/reportData";
@@ -9,6 +9,7 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
   const cardRef = useRef<HTMLDivElement>(null);
   const [isDownloading, setIsDownloading] = useState(false);
   const [imgLoaded, setImgLoaded] = useState(false);
+  const [showReward, setShowReward] = useState(false);
 
   const report = allReportData[data.mbti]?.[data.zodiac];
 
@@ -344,22 +345,13 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
             </div>
           </motion.section>
 
-          <div className="border-t border-slate-800 pt-8 mt-8 flex justify-center">
-             <div className="inline-flex flex-col items-center">
-                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-xl shadow-purple-500/20 mb-3">
-                     <Share2 className="w-8 h-8 text-white" />
-                 </div>
-                 <p className="text-sm text-slate-400 font-medium">长按保存或截图分享</p>
-                 <p className="text-xs text-slate-500 mt-1">→ 测你的 MBTI × 星座</p>
-             </div>
-          </div>
         </div>
       </div>
       
       {/* Module 8: Share Actions (Floating or bottom) */}
-      <div className="max-w-2xl mx-auto mt-6 px-4 pb-12">
-        <button 
-          className="w-full sm:w-auto mx-auto flex items-center justify-center space-x-2 bg-white text-slate-900 hover:bg-slate-100 font-semibold py-4 px-8 rounded-2xl shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed" 
+      <div className="max-w-2xl mx-auto mt-6 px-4 pb-12 space-y-3">
+        <button
+          className="w-full flex items-center justify-center space-x-2 bg-white text-slate-900 hover:bg-slate-100 font-semibold py-4 px-8 rounded-2xl shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
           onClick={handleDownload}
           disabled={isDownloading}
         >
@@ -370,7 +362,141 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
           )}
           <span>{isDownloading ? '生成中...' : '保存精美分享长图'}</span>
         </button>
+
+        <button
+          className="w-full flex items-center justify-center space-x-2 bg-gradient-to-r from-pink-500 to-rose-500 text-white hover:from-pink-400 hover:to-rose-400 font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-pink-500/20 transition-all"
+          onClick={() => setShowReward(true)}
+        >
+          <Gift className="w-5 h-5" />
+          <span>好评返现</span>
+        </button>
       </div>
+
+      {/* Reward Modal */}
+      {showReward && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
+          onClick={(e) => { if (e.target === e.currentTarget) setShowReward(false); }}
+        >
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            className="relative w-full max-w-md bg-slate-900 rounded-3xl border border-slate-700/50 shadow-2xl overflow-hidden max-h-[90vh] overflow-y-auto"
+          >
+            {/* Header */}
+            <div className="relative bg-gradient-to-r from-pink-500/10 to-rose-500/10 p-6 pb-4">
+              <button
+                onClick={() => setShowReward(false)}
+                className="absolute top-4 right-4 w-8 h-8 rounded-full bg-slate-800/80 hover:bg-slate-700 flex items-center justify-center text-slate-400 hover:text-white transition-colors"
+              >
+                <X className="w-4 h-4" />
+              </button>
+              <div className="flex items-center space-x-2 mb-2">
+                <Gift className="w-6 h-6 text-pink-400" />
+                <h2 className="text-xl font-bold text-white">好评返现</h2>
+              </div>
+              <p className="text-sm text-slate-400">完成以下步骤可获得返现 / 赠品</p>
+            </div>
+
+            {/* Steps */}
+            <div className="p-6 space-y-5">
+              {/* Step 1 */}
+              <div className="relative pl-8">
+                <div className="absolute left-0 top-0 w-6 h-6 rounded-full bg-pink-500/20 border border-pink-500/40 flex items-center justify-center">
+                  <span className="text-xs font-bold text-pink-400">1</span>
+                </div>
+                <h3 className="font-bold text-slate-100 mb-2 flex items-center space-x-1">
+                  <Star className="w-4 h-4 text-amber-400" />
+                  <span>发布五星好评</span>
+                </h3>
+                <ul className="space-y-1.5 text-sm text-slate-400">
+                  <li className="flex items-start">
+                    <span className="text-pink-400 mr-2 mt-0.5">•</span>
+                    <span>附 2-3 张报告内页截图（推荐截：人格标签卡 / 内核解析 / 隐藏面）</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-pink-400 mr-2 mt-0.5">•</span>
+                    <span>15 字以上真实使用感受</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-pink-400 mr-2 mt-0.5">•</span>
+                    <span>不要匿名发布</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Step 2 */}
+              <div className="relative pl-8">
+                <div className="absolute left-0 top-0 w-6 h-6 rounded-full bg-pink-500/20 border border-pink-500/40 flex items-center justify-center">
+                  <span className="text-xs font-bold text-pink-400">2</span>
+                </div>
+                <h3 className="font-bold text-slate-100 mb-2 flex items-center space-x-1">
+                  <MessageCircle className="w-4 h-4 text-sky-400" />
+                  <span>私信审核</span>
+                </h3>
+                <p className="text-sm text-slate-400">
+                  将好评截图通过小红书私信发送给我审核
+                </p>
+              </div>
+
+              {/* Step 3 */}
+              <div className="relative pl-8">
+                <div className="absolute left-0 top-0 w-6 h-6 rounded-full bg-pink-500/20 border border-pink-500/40 flex items-center justify-center">
+                  <span className="text-xs font-bold text-pink-400">3</span>
+                </div>
+                <h3 className="font-bold text-slate-100 mb-2 flex items-center space-x-1">
+                  <CheckCircle className="w-4 h-4 text-emerald-400" />
+                  <span>审核通过后任选其一</span>
+                </h3>
+                <div className="space-y-2">
+                  <div className="bg-slate-800/60 rounded-xl p-3 border border-slate-700/50 flex items-center space-x-3">
+                    <div className="w-8 h-8 rounded-full bg-red-500/20 flex items-center justify-center shrink-0">
+                      <span className="text-red-400 text-xs font-bold">红包</span>
+                    </div>
+                    <span className="text-sm text-slate-200">红包返现 1 元</span>
+                  </div>
+                  <div className="bg-slate-800/60 rounded-xl p-3 border border-slate-700/50 flex items-center space-x-3">
+                    <div className="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center shrink-0">
+                      <Sparkles className="w-4 h-4 text-purple-400" />
+                    </div>
+                    <span className="text-sm text-slate-200">免费获得另一种 MBTI 的报告码（价值 4.99）</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Divider */}
+              <div className="border-t border-slate-800 pt-4">
+                <h4 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">注意事项</h4>
+                <ul className="space-y-1.5 text-xs text-slate-500">
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-1.5">×</span>
+                    <span>每订单仅可参与一次</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-1.5">×</span>
+                    <span>截图请勿包含好评返现卡内容</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-1.5">×</span>
+                    <span>匿名评价无法审核通过</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-1.5">×</span>
+                    <span>复制网上评论不通过</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Footer */}
+              <div className="text-center pt-2">
+                <p className="text-xs text-slate-500">
+                  客服在线：9:00 - 23:00
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      )}
 
     </div>
   );
