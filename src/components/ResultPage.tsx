@@ -412,7 +412,7 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
                 <ul className="space-y-1.5 text-sm text-slate-400">
                   <li className="flex items-start">
                     <span className="text-pink-400 mr-2 mt-0.5">•</span>
-                    <span>附 2-3 张报告内页截图（推荐截：人格标签卡 / 内核解析 / 隐藏面）</span>
+                    <span>附 2-3 张报告内页截图</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-pink-400 mr-2 mt-0.5">•</span>
@@ -459,7 +459,7 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
                     <div className="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center shrink-0">
                       <Sparkles className="w-4 h-4 text-purple-400" />
                     </div>
-                    <span className="text-sm text-slate-200">免费获得另一种 MBTI 的报告码（价值 4.99）</span>
+                    <span className="text-sm text-slate-200">免费获得店内另一种测试题的报告码（价值 2.99）</span>
                   </div>
                 </div>
               </div>
