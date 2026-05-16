@@ -453,13 +453,13 @@ export function ResultPage({ data, onBack }: { data: { mbti: string; zodiac: str
                     <div className="w-8 h-8 rounded-full bg-red-500/20 flex items-center justify-center shrink-0">
                       <span className="text-red-400 text-xs font-bold">红包</span>
                     </div>
-                    <span className="text-sm text-slate-200">红包返现 1 元</span>
+                    <span className="text-sm text-slate-200">红包返现 2 元</span>
                   </div>
                   <div className="bg-slate-800/60 rounded-xl p-3 border border-slate-700/50 flex items-center space-x-3">
                     <div className="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center shrink-0">
                       <Sparkles className="w-4 h-4 text-purple-400" />
                     </div>
-                    <span className="text-sm text-slate-200">免费获得店内另一种测试题的报告码（价值 2.99）</span>
+                    <span className="text-sm text-slate-200">免费获得店内另一种测试题的报告码（价值 4.9）</span>
                   </div>
                 </div>
               </div>
