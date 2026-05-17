@@ -170,6 +170,24 @@ export function HomePage({ onComplete }: { onComplete: (data: { mbti: string; zo
                   </div>
                   {error && <p className="text-xs text-red-400 mt-1 ml-1">{error}</p>}
                 </div>
+
+                <div className="bg-slate-800/60 border border-slate-700/50 rounded-xl p-4 space-y-2"
+                >
+                  <p className="text-sm text-slate-300 font-medium"
+                  >没有校验码？</p>
+                  <p className="text-xs text-slate-400 leading-relaxed"
+                  >请前往小红书店铺获取校验码，点击下方链接联系店铺客服</p>
+                  <a
+                    href="https://xhslink.com/m/4sIyfagw98s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-1 text-sm text-pink-400 hover:text-pink-300 transition-colors font-medium"
+                  >
+                    <span>前往小红书店铺</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+
                 <motion.button
                   whileHover={{ scale: verifying ? 1 : 1.02 }}
                   whileTap={{ scale: verifying ? 1 : 0.98 }}
