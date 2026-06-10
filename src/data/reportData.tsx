@@ -119,9 +119,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "林俊杰《修炼爱情》",
-        movie: "《白日梦想家》",
-        poem: "\"心有猛虎，细嗅蔷薇\""
+        bgm: "Beyond《海阔天空》",
+        movie: "《立春》(顾长卫)",
+        poem: "「朋友，坚定地相信未来吧，相信不屈不挠的努力」——食指《相信未来》"
       }
     },
     "狮子座": {
@@ -218,9 +218,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Coldplay《Viva La Vida》",
-        movie: "《玫瑰人生》",
-        poem: "\"我本是高山而非溪流，我欲于群峰之巅俯视平庸的沟壑。\""
+        bgm: "张雨生《我的未来不是梦》",
+        movie: "《死亡诗社》(Dead Poets Society)",
+        poem: "「既然选择了远方，便只顾风雨兼程」——汪国真《热爱生命》"
       }
     },
     "射手座": {
@@ -317,9 +317,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "朴树《平淡日子里的刺》",
-        movie: "《荒野生存》(Into the Wild)",
-        poem: "\"我听见远方下雨，听到一具躯体被雨水淋湿。\""
+        bgm: "痛仰乐队《公路之歌》",
+        movie: "《少年派的奇幻漂流》(李安)",
+        poem: "「你们的孩子，都不是你们的孩子，他们是生命对于自身渴望而诞生的」——纪伯伦《先知》"
       }
     },
     "金牛座": {
@@ -416,9 +416,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "毛不易《像我这样的人》",
-        movie: "《小森林》",
-        poem: "\"从明天起，关心粮食和蔬菜 / 我有一所房子，面朝大海，春暖花开。\""
+        bgm: "李宗盛《山丘》",
+        movie: "《地久天长》(王小帅)",
+        poem: "「行到水穷处，坐看云起时」——王维《终南别业》"
       }
     },
     "处女座": {
@@ -515,9 +515,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "苏打绿《无与伦比的美丽》",
-        movie: "《布达佩斯大饭店》",
-        poem: "\"万物皆有裂痕，那是光照进来的地方。\""
+        bgm: "雷光夏《明天的明天的明天》",
+        movie: "《天堂电影院》(Cinema Paradiso)",
+        poem: "「涧户寂无人，纷纷开且落」——王维《辛夷坞》"
       }
     },
     "摩羯座": {
@@ -614,9 +614,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "坂本龙一《Merry Christmas Mr. Lawrence》",
-        movie: "《奥本海默》",
-        poem: "\"谁终将声震人间，必长久深自缄默；谁终将点燃闪电，必长久如云漂泊。\""
+        bgm: "罗大佑《光阴的故事》",
+        movie: "《肖申克的救赎》",
+        poem: "「千磨万击还坚劲，任尔东西南北风」——郑燮《竹石》"
       }
     },
     "双子座": {
@@ -713,9 +713,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "陈奕迅《孤独患者》",
-        movie: "《瞬息全宇宙》",
-        poem: "\"在我的身体里，有一百万只鸟试图飞向不同的天空。\""
+        bgm: "朴树《平凡之路》",
+        movie: "《降临》(Arrival)",
+        poem: "「卑鄙是卑鄙者的通行证，高尚是高尚者的墓志铭」——北岛《回答》"
       }
     },
     "天秤座": {
@@ -812,9 +812,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "王菲《推翻》",
-        movie: "《情书》(Love Letter)",
-        poem: "\"我必须非常努力，才能看起来毫不费力。\""
+        bgm: "陈奕迅《富士山下》",
+        movie: "《布达佩斯大饭店》",
+        poem: "「撑着油纸伞，独自彷徨在悠长又寂寥的雨巷」——戴望舒《雨巷》"
       }
     },
     "水瓶座": {
@@ -911,9 +911,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "David Bowie《Space Oddity》",
-        movie: "《星际穿越》(Interstellar)",
-        poem: "\"不要温和地走进那个良夜，怒斥，怒斥光明的消逝。\""
+        bgm: "陈鸿宇《理想三旬》",
+        movie: "《攻壳机动队》(押井守)",
+        poem: "「谁此时孤独，就永远孤独」——里尔克《秋日》"
       }
     },
     "巨蟹座": {
@@ -1010,9 +1010,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "张惠妹《我最亲爱的》",
-        movie: "《海街日记》",
-        poem: "\"所有水滴最后都落入海里，所有人类的悲欢最后都汇入了你。\""
+        bgm: "林忆莲《至少还有你》",
+        movie: "《海上钢琴师》",
+        poem: "「给我一瓢长江水啊长江水，酒一样的长江水」——余光中《乡愁四韵》"
       }
     },
     "天蝎座": {
@@ -1109,9 +1109,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Billie Eilish《No Time To Die》",
-        movie: "《黑天鹅》(Black Swan)",
-        poem: "\"从童年起，我便暗自猜想，猛兽总是孤独的。——萨义德\""
+        bgm: "万能青年旅店《杀死那个石家庄人》",
+        movie: "《杀人回忆》(奉俊昊)",
+        poem: "「有一种神秘你无法驾驭，你只能充当旁观者的角色」——西川《在哈尔盖仰望星空》"
       }
     },
     "双鱼座": {
@@ -1208,9 +1208,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Young and Beautiful》",
-        movie: "《千与千寻》",
-        poem: "\"我是你路上最后的一个过客，最后的一个春天，最后的一场雪，最后的一次求生的战争。——保尔·艾吕雅\""
+        bgm: "萨顶顶《万物生》",
+        movie: "《入殓师》(泷田洋二郎)",
+        poem: "「生如夏花之绚烂，死如秋叶之静美」——泰戈尔《飞鸟集》"
       }
     }
   },
@@ -1309,9 +1309,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Oasis《Don't Look Back In Anger》",
-        movie: "《星际穿越》(Interstellar)",
-        poem: "\"纵有疾风起，人生不言弃。\"—— 保罗·瓦雷里"
+        bgm: "朴树《生如夏花》",
+        movie: "《阳光灿烂的日子》(姜文)",
+        poem: "「我要做远方的忠诚的儿子」——海子《以梦为马》"
       }
     },
     "狮子座": {
@@ -1405,9 +1405,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Taylor Swift《Mirrorball》",
-        movie: "《了不起的盖茨比》(The Great Gatsby)",
-        poem: "\"我将永远忠于自己，披星戴月奔向理想和你。\""
+        bgm: "五月天《倔强》",
+        movie: "《霸王别姬》(陈凯歌)",
+        poem: "「我必须是你近旁的一株木棉，作为树的形象和你站在一起」——舒婷《致橡树》"
       }
     },
     "射手座": {
@@ -1501,9 +1501,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Beatles《Let It Be》",
-        movie: "《荒野生存》(Into the Wild)",
-        poem: "\"我听见回声，来自山谷和心间。以寂寞的镰刀收割空旷的灵魂。\""
+        bgm: "许巍《蓝莲花》",
+        movie: "《练习曲》(陈怀恩)",
+        poem: "「远方除了遥远一无所有」——海子《九月》"
       }
     },
     "金牛座": {
@@ -1597,9 +1597,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "王菲《人间》",
-        movie: "《小森林》(Little Forest)",
-        poem: "\"草在结它的种子，风在摇它的叶子，我们站着，不说话，就十分美好。\"——顾城"
+        bgm: "李健《贝加尔湖畔》",
+        movie: "《步履不停》(是枝裕和)",
+        poem: "「我们站着，不说话，就十分美好」——顾城《门前》"
       }
     },
     "处女座": {
@@ -1693,9 +1693,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "李健《贝加尔湖畔》",
-        movie: "《海上钢琴师》(The Legend of 1900)",
-        poem: "\"我本可以容忍黑暗，如果我不曾见过太阳。\"—— 艾米莉·狄金森"
+        bgm: "陈绮贞《鱼》",
+        movie: "《晚春》(小津安二郎)",
+        poem: "「明月装饰了你的窗子，你装饰了别人的梦」——卞之琳《断章》"
       }
     },
     "摩羯座": {
@@ -1789,9 +1789,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "毛不易《像我这样的人》",
-        movie: "《肖申克的救赎》(The Shawshank Redemption)",
-        poem: "\"为了看看阳光，我来到世上。\"—— 巴尔蒙特"
+        bgm: "赵雷《理想》",
+        movie: "《一一》(杨德昌)",
+        poem: "「此中有真意，欲辨已忘言」——陶渊明《饮酒》"
       }
     },
     "双子座": {
@@ -1885,9 +1885,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "苏打绿《你在烦恼什么》",
-        movie: "《爱在黎明破晓前》(Before Sunrise)",
-        poem: "\"我把你揉碎了看，一边是光，一边是影。\""
+        bgm: "陈粒《易燃易爆炸》",
+        movie: "《重庆森林》(王家卫)",
+        poem: "「只要想起一生中后悔的事，梅花便落满了南山」——张枣《镜中》"
       }
     },
     "天秤座": {
@@ -1981,9 +1981,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Taylor Swift《Lover》",
-        movie: "《情书》(Love Letter)",
-        poem: "\"你是一树一树的花开，是燕在梁间呢喃，——你是爱，是暖，是希望，你是人间的四月天！\"—— 林徽因"
+        bgm: "王菲《暧昧》",
+        movie: "《花样年华》(王家卫)",
+        poem: "「你是爱，是暖，是希望，你是人间的四月天」——林徽因"
       }
     },
     "水瓶座": {
@@ -2077,9 +2077,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Radiohead《Creep》",
-        movie: "《楚门的世界》(The Truman Show)",
-        poem: "\"我是宇宙的孩子，与植物和星辰平起平坐。\"—— 麦克斯·埃尔曼"
+        bgm: "窦唯《高级动物》",
+        movie: "《关于莉莉周的一切》(岩井俊二)",
+        poem: "「那时我们有梦，关于文学，关于爱情，关于穿越世界的旅行」——北岛《波兰来客》"
       }
     },
     "巨蟹座": {
@@ -2173,9 +2173,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "魏如萱《你啊你啊》",
-        movie: "《天使爱美丽》(Amélie)",
-        poem: "\"你是我的半截的诗，不许别人更改一个字。\"—— 海子"
+        bgm: "莫文蔚《这世界那么多人》",
+        movie: "《海街日记》(是枝裕和)",
+        poem: "「乡愁是一枚小小的邮票」——余光中《乡愁》"
       }
     },
     "天蝎座": {
@@ -2269,9 +2269,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Born To Die》",
-        movie: "《黑天鹅》(Black Swan)",
-        poem: "\"我必须穿越那些无知的黑夜，去拥抱每一个属于我的黎明。\""
+        bgm: "万能青年旅店《秦皇岛》",
+        movie: "《色，戒》(李安)",
+        poem: "「世间安得双全法，不负如来不负卿」——仓央嘉措"
       }
     },
     "双鱼座": {
@@ -2365,9 +2365,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Cigarettes After Sex《Apocalypse》",
-        movie: "《水形物语》(The Shape of Water)",
-        poem: "\"我将自己摊成了一个湖，只为了能倒映你。\""
+        bgm: "王菲《梦中人》",
+        movie: "《情书》(岩井俊二)",
+        poem: "「我想在大地上画满窗子，让所有习惯黑暗的眼睛都习惯光明」——顾城《我是一个任性的孩子》"
       }
     }
   },
@@ -2463,9 +2463,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Oasis《Supersonic》",
-        movie: "《黑客帝国》(The Matrix)",
-        poem: "\"我必须知道一切，否则我就什么都不知道。\""
+        bgm: "The Strokes《Last Nite》",
+        movie: "《搏击俱乐部》(Fight Club)",
+        poem: "「北冥有鱼，其名为鲲，鲲之大，不知其几千里也」——庄子《逍遥游》"
       }
     },
     "狮子座": {
@@ -2559,9 +2559,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Queen《We Are The Champions》",
-        movie: "《钢铁侠》(Iron Man)",
-        poem: "\"我本是高山，而非溪流。\""
+        bgm: "MGMT《Electric Feel》",
+        movie: "《美丽心灵》(A Beautiful Mind)",
+        poem: "「起风了，唯有努力试着生存」——瓦雷里《海滨墓园》"
       }
     },
     "射手座": {
@@ -2655,9 +2655,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Coldplay《A Sky Full Of Stars》",
-        movie: "《星际穿越》(Interstellar)",
-        poem: "\"只有两件事物让我敬畏：头顶的星空和心中的道德律。\"—— 康德"
+        bgm: "Tame Impala《Let It Happen》",
+        movie: "《K星异客》(K-PAX)",
+        poem: "「我们不应停止探索，一切探索的终点，将是抵达出发的原点」——艾略特《四个四重奏》"
       }
     },
     "金牛座": {
@@ -2751,9 +2751,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Pink Floyd《Time》",
-        movie: "《降临》(Arrival)",
-        poem: "\"我必须是这大地上的盐，坚硬，且无法被磨灭。\""
+        bgm: "Bon Iver《Holocene》",
+        movie: "《心灵捕手》(Good Will Hunting)",
+        poem: "「庐山烟雨浙江潮，未到千般恨不消」——苏轼《观潮》"
       }
     },
     "处女座": {
@@ -2847,9 +2847,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Bach《Goldberg Variations》",
-        movie: "《模仿游戏》(The Imitation Game)",
-        poem: "\"我必须如冰雪般纯洁，如水晶般通透。\""
+        bgm: "Alt-J《Breezeblocks》",
+        movie: "《记忆碎片》(Memento)",
+        poem: "「我们一无所有，只是闪光，瞬间即逝」——米沃什《邂逅》"
       }
     },
     "摩羯座": {
@@ -2943,9 +2943,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《Time (Inception)》",
-        movie: "《奥本海默》(Oppenheimer)",
-        poem: "\"我独自站在雪地里，不再期待春天的到来。因为我知道，凛冬也是我力量的一部分。\""
+        bgm: "Nils Frahm《Says》",
+        movie: "《万物理论》(The Theory of Everything)",
+        poem: "「千里之行，始于足下；合抱之木，生于毫末」——老子《道德经》"
       }
     },
     "双子座": {
@@ -3039,9 +3039,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The xx《Intro》",
-        movie: "《楚门的世界》(The Truman Show)",
-        poem: "\"我是一场风暴，而你们甚至没有带伞。\""
+        bgm: "Vampire Weekend《A-Punk》",
+        movie: "《彗星来的那一夜》(Coherence)",
+        poem: "「有关大雁塔，我们又能知道些什么」——韩东《有关大雁塔》"
       }
     },
     "天秤座": {
@@ -3135,9 +3135,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Ryuichi Sakamoto《Merry Christmas Mr. Lawrence》",
-        movie: "《天才雷普利》(The Talented Mr. Ripley)",
-        poem: "\"我爱这世界，但我更爱理解这世界。\""
+        bgm: "Phoenix《1901》",
+        movie: "《超脱》(Detachment)",
+        poem: "「我宁愿是夜里的一颗星，而不是飞舞的萤火虫」——佩索阿"
       }
     },
     "水瓶座": {
@@ -3231,9 +3231,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Daft Punk《Contact》",
-        movie: "《2001太空漫游》(2001: A Space Odyssey)",
-        poem: "\"两个宇宙相撞，而我不为所动。\""
+        bgm: "Boards of Canada《Roygbiv》",
+        movie: "《前目的地》(Predestination)",
+        poem: "「我看见这一代最杰出的头脑毁于疯狂」——金斯堡《嚎叫》"
       }
     },
     "巨蟹座": {
@@ -3327,9 +3327,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Radiohead《Creep》",
-        movie: "《剪刀手爱德华》(Edward Scissorhands)",
-        poem: "\"我本可以忍受黑暗，如果我不曾见过太阳；然而阳光已使我的荒凉，成为更新的荒凉。\""
+        bgm: "Mazzy Star《Fade Into You》",
+        movie: "《这个男人来自地球》(The Man from Earth)",
+        poem: "「我们准备着深深地领受那些意想不到的奇迹」——冯至《十四行集》"
       }
     },
     "天蝎座": {
@@ -3423,9 +3423,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Massive Attack《Angel》",
-        movie: "《黑客帝国》(The Matrix)",
-        poem: "\"我本想去地狱看看，却发现人间就是地狱的尽头。\""
+        bgm: "Joy Division《Disorder》",
+        movie: "《禁闭岛》(Shutter Island)",
+        poem: "「我们活着的世界，我们看不见全貌」——特朗斯特罗姆《黑色的山》"
       }
     },
     "双鱼座": {
@@ -3519,9 +3519,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Debussy《Clair de Lune》",
-        movie: "《她》(Her)",
-        poem: "\"我听见花开的声音，那是一串极其美丽的方程式方程的解。\""
+        bgm: "Sigur Rós《Untitled #1 (Vaka)》",
+        movie: "《云图》(Cloud Atlas)",
+        poem: "「不知周之梦为胡蝶与，胡蝶之梦为周与」——庄子《齐物论》"
       }
     }
   },
@@ -3617,9 +3617,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Two Steps From Hell《Victory》",
-        movie: "《疯狂的麦克斯4》(Mad Max: Fury Road)",
-        poem: "\"我来，我见，我征服。\"—— 凯撒"
+        bgm: "Muse《Uprising》",
+        movie: "《V字仇杀队》(V for Vendetta)",
+        poem: "「我给你一个久久地望着孤月的人的悲哀」——博尔赫斯《我用什么才能留住你》"
       }
     },
     "狮子座": {
@@ -3713,9 +3713,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《The Lion King Theme》",
-        movie: "《教父》(The Godfather)",
-        poem: "\"在这个宇宙，除了我自己，没有人能够为我加冕。\""
+        bgm: "Two Steps From Hell《Victory》",
+        movie: "《社交网络》(The Social Network)",
+        poem: "「老骥伏枥，志在千里；烈士暮年，壮心不已」——曹操《龟虽寿》"
       }
     },
     "射手座": {
@@ -3809,9 +3809,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《Interstellar Main Theme》",
-        movie: "《黑客帝国》(The Matrix)",
-        poem: "\"不要温和地走进那个良夜，我的灵魂注定要点燃一千个宇宙。\""
+        bgm: "M83《Outro》",
+        movie: "《2001太空漫游》(2001: A Space Odyssey)",
+        poem: "「四月是最残忍的月份」——艾略特《荒原》"
       }
     },
     "金牛座": {
@@ -3905,9 +3905,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Antonio Vivaldi《Winter》",
-        movie: "《华尔街之狼》(The Wolf of Wall Street)",
-        poem: "\"我必须在这大地上，为我的灵魂建造一座永远不会漏雨的宫殿。\""
+        bgm: "Sigur Rós《Hoppípolla》",
+        movie: "《模仿游戏》(The Imitation Game)",
+        poem: "「大方无隅，大器晚成，大音希声」——老子《道德经》"
       }
     },
     "处女座": {
@@ -4001,9 +4001,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Philip Glass《Metamorphosis: I》",
-        movie: "《异形》(Alien)",
-        poem: "\"我就像一把精心打磨的手术刀，除了真理，我什么都不信奉。\""
+        bgm: "坂本龙一《Merry Christmas Mr. Lawrence》",
+        movie: "《利刃出鞘》(Knives Out)",
+        poem: "「这一天如此幸福，雾一早就散了」——米沃什《礼物》"
       }
     },
     "摩羯座": {
@@ -4097,9 +4097,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Howard Shore《The Bridge of Khazad-dûm》",
-        movie: "《纸牌屋》(House of Cards)",
-        poem: "\"在我冷酷的注视下，所有的帝王将相都不过是一串终将被覆盖的代码。\""
+        bgm: "Ólafur Arnalds《Near Light》",
+        movie: "《黑暗骑士》(The Dark Knight)",
+        poem: "「日月之行，若出其中；星汉灿烂，若出其里」——曹操《观沧海》"
       }
     },
     "双子座": {
@@ -4193,9 +4193,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Daft Punk《Harder, Better, Faster, Stronger》",
-        movie: "《神探夏洛克》(Sherlock)",
-        poem: "\"我不是任何人的倒影，我是正在解析这个世界的三千万行源代码。\""
+        bgm: "Radiohead《Paranoid Android》",
+        movie: "《盗梦空间》(Inception)",
+        poem: "「上帝移动棋手，棋手移动棋子」——博尔赫斯《棋》"
       }
     },
     "天秤座": {
@@ -4289,9 +4289,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Ludovico Einaudi《Experience》",
-        movie: "《汉尼拔》(Hannibal)",
-        poem: "\"我将在这个极其肮脏的世界上，为你献上一场极其盛大且优雅的葬礼。\""
+        bgm: "Ludovico Einaudi《Nuvole Bianche》",
+        movie: "《十二怒汉》(12 Angry Men)",
+        poem: "「水击三千里，抟扶摇而上者九万里」——庄子《逍遥游》"
       }
     },
     "水瓶座": {
@@ -4385,9 +4385,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Max Richter《On the Nature of Daylight》",
+        bgm: "Aphex Twin《Avril 14th》",
         movie: "《银翼杀手2049》(Blade Runner 2049)",
-        poem: "\"我本可以忍受这极其漫长的孤独，只要我的观测站外，还极其偶然地有一颗流星划过。\""
+        poem: "「一切都是命运，一切都是烟云」——北岛《一切》"
       }
     },
     "巨蟹座": {
@@ -4481,9 +4481,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Thomas Newman《Any Other Name》",
-        movie: "《教父2》(The Godfather: Part II) 中的迈克",
-        poem: "\"我把我的城堡沉入一万米深的海底，只为了极其安心地计算花开的方程式。\""
+        bgm: "Max Richter《On the Nature of Daylight》",
+        movie: "《湮灭》(Annihilation)",
+        poem: "「此刻有谁在世上某处哭，无缘无故在世上哭，在哭我」——里尔克《沉重的时刻》"
       }
     },
     "天蝎座": {
@@ -4577,9 +4577,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《Time》",
-        movie: "《蝙蝠侠：黑暗骑士》(The Dark Knight) 中的蝙蝠侠/小丑混合体",
-        poem: "\"我从地狱来，极其冷酷地要到天堂去。\""
+        bgm: "Radiohead《Exit Music (For a Film)》",
+        movie: "《七宗罪》(Se7en)",
+        poem: "「死亡是来自德国的大师」——策兰《死亡赋格》"
       }
     },
     "双鱼座": {
@@ -4673,9 +4673,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Claude Debussy《Clair de lune》",
-        movie: "《盗梦空间》(Inception)",
-        poem: "\"我用极其严密的几何学，为你描绘了一个永远不会极其悲伤的深海。\""
+        bgm: "Brian Eno《An Ending (Ascent)》",
+        movie: "《路边野餐》(毕赣)",
+        poem: "「醒悟是梦中往外跳伞」——特朗斯特罗姆《序曲》"
       }
     }
   },
@@ -4771,9 +4771,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Script《Hall of Fame》",
-        movie: "《白日梦想家》(The Secret Life of Walter Mitty)",
-        poem: "\"即使明天天寒地冻，路远马亡，在此刻我依然想要为你纵情燃烧。\""
+        bgm: "新裤子《没有理想的人不伤心》",
+        movie: "《爆裂鼓手》(Whiplash)",
+        poem: "「天生我材必有用，千金散尽还复来」——李白《将进酒》"
       }
     },
     "狮子座": {
@@ -4867,9 +4867,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Queen《Don't Stop Me Now》",
-        movie: "《马戏之王》(The Greatest Showman)",
-        poem: "\"我就是这个世界上唯一的光，如果我不发亮，这个世界将陷入无尽的黑暗。\""
+        bgm: "邓紫棋《光年之外》",
+        movie: "《爱乐之城》(La La Land)",
+        poem: "「我是一条天狗呀！我把月来吞了」——郭沫若《天狗》"
       }
     },
     "射手座": {
@@ -4963,9 +4963,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Oasis《Wonderwall》",
-        movie: "《荒野生存》(Into the Wild)",
-        poem: "\"我听见远方的风在呼唤我的名字，我必须上路。\""
+        bgm: "Bob Dylan《Blowin' in the Wind》",
+        movie: "《白日梦想家》(The Secret Life of Walter Mitty)",
+        poem: "「永远年轻，永远热泪盈眶」——凯鲁亚克《在路上》"
       }
     },
     "金牛座": {
@@ -5059,9 +5059,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Jack Johnson《Better Together》",
-        movie: "《饮食男女》(Eat Drink Man Woman)",
-        poem: "\"我不仅需要属于灵魂的玫瑰，还需要新鲜出炉的面包。\""
+        bgm: "马頔《南山南》",
+        movie: "《天使爱美丽》(Amélie)",
+        poem: "「活在这珍贵的人间，太阳强烈，水波温柔」——海子《活在珍贵的人间》"
       }
     },
     "处女座": {
@@ -5155,9 +5155,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Florence + The Machine《Dog Days Are Over》",
-        movie: "《鸟人》(Birdman)",
-        poem: "\"我在一地碎玻璃中，为你拼凑出了一只完美的天鹅。\""
+        bgm: "好妹妹乐队《一个人的北京》",
+        movie: "《和莎莫的500天》(500 Days of Summer)",
+        poem: "「我盼望的，也不过就是那一瞬，我从没要求过你给我你的一生」——席慕容《盼望》"
       }
     },
     "摩羯座": {
@@ -5251,9 +5251,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Coldplay《Viva La Vida》",
-        movie: "《华尔街之狼》(The Wolf of Wall Street)",
-        poem: "\"我戴着王冠，在满是泥泞的下水道里起舞。\""
+        bgm: "郝云《活着》",
+        movie: "《当幸福来敲门》(The Pursuit of Happyness)",
+        poem: "「我选择了人迹更少的一条，从此决定了我一生的道路」——弗罗斯特《未选择的路》"
       }
     },
     "双子座": {
@@ -5347,9 +5347,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Oasis《Don't Look Back In Anger》",
-        movie: "《疯狂的麦克斯：狂暴之路》(Mad Max: Fury Road)",
-        poem: "\"我像一阵轻狂的风，直到我遇见了心甘情愿为之停留的玫瑰。\""
+        bgm: "卢广仲《早安，晨之美》",
+        movie: "《阳光小美女》(Little Miss Sunshine)",
+        poem: "「举杯邀明月，对影成三人」——李白《月下独酌》"
       }
     },
     "天秤座": {
@@ -5443,9 +5443,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Bruno Mars《Just the Way You Are》",
+        bgm: "孙燕姿《遇见》",
         movie: "《爱在黎明破晓前》(Before Sunrise)",
-        poem: "\"我听见远方的风在呼唤我的名字，我必须上路。\""
+        poem: "「当你老了，头发白了，睡意昏沉」——叶芝《当你老了》"
       }
     },
     "水瓶座": {
@@ -5539,9 +5539,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Beatles《Across The Universe》",
-        movie: "《星际穿越》(Interstellar)",
-        poem: "\"我本是宇宙中的一粒星辰，却偏偏在地球上落下热泪。\""
+        bgm: "后海大鲨鱼《心要野》",
+        movie: "《海盗电台》(The Boat That Rocked)",
+        poem: "「不要温和地走进那个良夜，老年应当在日暮时燃烧咆哮」——狄兰·托马斯"
       }
     },
     "巨蟹座": {
@@ -5635,9 +5635,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Cigarettes After Sex《Apocalypse》",
-        movie: "《海街日记》(Our Little Sister)",
-        poem: "\"我将我的全部温柔倾倒在这冰冷的世界，只为你能感受到哪怕一秒钟的温暖。\""
+        bgm: "杨千嬅《野孩子》",
+        movie: "《怦然心动》(Flipped)",
+        poem: "「轻轻的我走了，正如我轻轻的来」——徐志摩《再别康桥》"
       }
     },
     "天蝎座": {
@@ -5731,9 +5731,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Billie Eilish《bury a friend》",
-        movie: "《消失的爱人》(Gone Girl)",
-        poem: "\"我的爱如鸩酒，饮下即是永恒的救赎与毁灭。\""
+        bgm: "杨乃文《推开世界的门》",
+        movie: "《暖暖内含光》(Eternal Sunshine)",
+        poem: "「我想和你一起生活，在某个小镇，共享无尽的黄昏」——茨维塔耶娃"
       }
     },
     "双鱼座": {
@@ -5827,9 +5827,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Young and Beautiful》",
+        bgm: "房东的猫《麻雀》",
         movie: "《大鱼》(Big Fish)",
-        poem: "\"我将在这个极其肮脏的世界上，为你造一个永远不会破碎的梦。\""
+        poem: "「走了那么远，我们去寻找一盏灯」——顾城《我们去寻找一盏灯》"
       }
     }
   },
@@ -5925,9 +5925,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "崔健《新长征路上的摇滚》",
-        movie: "《让子弹飞》",
-        poem: "\"我来，我见，我颠覆；即使粉身碎骨，我也要在这铁屋子里砸出一个窟窿。\""
+        bgm: "Queen《Don't Stop Me Now》",
+        movie: "《惊天魔盗团》(Now You See Me)",
+        poem: "「十步杀一人，千里不留行。事了拂衣去，深藏身与名」——李白《侠客行》"
       }
     },
     "狮子座": {
@@ -6021,9 +6021,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Queen《Don't Stop Me Now》",
-        movie: "《钢铁侠》(Iron Man)",
-        poem: "\"我不仅要将这宇宙的真理握在手中，我还要这真理为我加冕。\""
+        bgm: "Imagine Dragons《Believer》",
+        movie: "《大空头》(The Big Short)",
+        poem: "「醉里挑灯看剑，梦回吹角连营」——辛弃疾《破阵子》"
       }
     },
     "射手座": {
@@ -6117,9 +6117,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "朴树《平凡之路》",
-        movie: "《楚门的世界》(The Truman Show)",
-        poem: "\"不要问我从哪里来，我的故乡在没有规则的远方。\""
+        bgm: "Red Hot Chili Peppers《Can't Stop》",
+        movie: "《猫鼠游戏》(Catch Me If You Can)",
+        poem: "「我将远去，到很远的地方，快活得如同身边有位女郎」——兰波《感觉》"
       }
     },
     "金牛座": {
@@ -6213,9 +6213,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "万能青年旅店《十万嬉皮》",
-        movie: "《大腕》(Big Shot's Funeral)",
-        poem: "\"给我一个支点，我不仅能撬动地球，我还能顺便把这个支点给高价卖了。\""
+        bgm: "The Black Keys《Lonely Boy》",
+        movie: "《点球成金》(Moneyball)",
+        poem: "「莫听穿林打叶声，何妨吟啸且徐行，一蓑烟雨任平生」——苏轼《定风波》"
       }
     },
     "处女座": {
@@ -6309,9 +6309,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "周杰伦《以父之名》",
-        movie: "《社交网络》(The Social Network)",
-        poem: "\"真理不在大炮的射程之内，真理在我的小数字库里。\""
+        bgm: "Two Door Cinema Club《What You Know》",
+        movie: "《消失的爱人》(Gone Girl)",
+        poem: "「于浩歌狂热之际中寒，于天上看见深渊」——鲁迅《野草》"
       }
     },
     "摩羯座": {
@@ -6405,9 +6405,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "刺猬乐队《火车驶向云外，梦安魂于九霄》",
-        movie: "《大明王朝1566》",
-        poem: "\"我将用你们的旧规则，为我自己打造一座新王座。\""
+        bgm: "Kanye West《POWER》",
+        movie: "《大创业家》(The Founder)",
+        poem: "「想当年，金戈铁马，气吞万里如虎」——辛弃疾《永遇乐》"
       }
     },
     "双子座": {
@@ -6501,9 +6501,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "大张伟《阳光彩虹小白马》",
-        movie: "《瞬息全宇宙》(Everything Everywhere All at Once)",
-        poem: "\"我的脑子里装下了一千个宇宙，每一个都在极速爆炸，而我只是在看烟花。\""
+        bgm: "Franz Ferdinand《Take Me Out》",
+        movie: "《死侍》(Deadpool)",
+        poem: "「结结巴巴我的嘴，二二二等残废」——伊沙《结结巴巴》"
       }
     },
     "天秤座": {
@@ -6597,9 +6597,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "王若琳《Let's Start From Here》",
-        movie: "《大空头》(The Big Short)",
-        poem: "\"我会在指出你是一头蠢驴的同时，顺手帮你把领带理直。\""
+        bgm: "Daft Punk《Get Lucky》",
+        movie: "《义海雄风》(A Few Good Men)",
+        poem: "「我们都生活在阴沟里，但仍有人仰望星空」——王尔德"
       }
     },
     "水瓶座": {
@@ -6693,9 +6693,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Radiohead《Creep》",
-        movie: "《黑客帝国》(The Matrix)",
-        poem: "\"我坐在一颗燃烧的陨石上，一边计算它坠入地球的轨道，一边为你倒扣一分。\""
+        bgm: "Gorillaz《Feel Good Inc.》",
+        movie: "《银河系漫游指南》(The Hitchhiker's Guide to the Galaxy)",
+        poem: "「车过黄河，我正在厕所里小便」——伊沙《车过黄河》"
       }
     },
     "巨蟹座": {
@@ -6789,9 +6789,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "张震岳《思念是一种病》",
-        movie: "《星际穿越》(Interstellar)",
-        poem: "\"我用满口的荒唐言将世界骂了个遍，然后在夜里为你留了一盏灯。\""
+        bgm: "The Killers《Mr. Brightside》",
+        movie: "《朱诺》(Juno)",
+        poem: "「身无彩凤双飞翼，心有灵犀一点通」——李商隐《无题》"
       }
     },
     "天蝎座": {
@@ -6885,9 +6885,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Rolling Stones《Paint It, Black》",
-        movie: "《沉默的羔羊》(The Silence of the Lambs)",
-        poem: "\"我早就看到了你灵魂里的那条蛆虫，我只是在等一个最幽默的时机把它挑出来。\""
+        bgm: "Muse《Hysteria》",
+        movie: "《非常嫌疑犯》(The Usual Suspects)",
+        poem: "「我是伤口，又是刀锋；我是耳光，又是脸面」——波德莱尔《恶之花》"
       }
     },
     "双鱼座": {
@@ -6981,9 +6981,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Coldplay《A Sky Full of Stars》",
-        movie: "《盗梦空间》(Inception)",
-        poem: "\"我不仅能梦见蝴蝶，我还能用微分方程算出一万只蝴蝶扇动翅膀如何毁掉这个城市。\""
+        bgm: "Empire of the Sun《We Are the People》",
+        movie: "《奇异博士》(Doctor Strange)",
+        poem: "「绿啊，我多么爱你这绿色」——洛尔迦《梦游人谣》"
       }
     }
   },
@@ -7076,9 +7076,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Imagine Dragons《Warriors》",
-        movie: "《疯狂的麦克斯：狂暴之路》(Mad Max: Fury Road)",
-        poem: "\"我本可以做一个冷眼旁观的聪明人，但我偏要在这个肮脏的世界里，做一团格外愚蠢且浪漫的火。\""
+        bgm: "Beyond《光辉岁月》",
+        movie: "《摔跤吧！爸爸》",
+        poem: "「为什么我的眼里常含泪水？因为我对这土地爱得深沉」——艾青《我爱这土地》"
       }
     },
     "狮子座": {
@@ -7166,9 +7166,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Queen《We Are The Champions》",
-        movie: "《狮子王》(The Lion King)",
-        poem: "\"我本可以屈服于平庸的暗夜，但我选择了做这世界上最耀眼的火把，哪怕是以我自己为薪柴。\""
+        bgm: "汪峰《怒放的生命》",
+        movie: "《国王的演讲》(The King's Speech)",
+        poem: "「假如生活欺骗了你，不要悲伤，不要心急」——普希金《假如生活欺骗了你》"
       }
     },
     "射手座": {
@@ -7259,9 +7259,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Nightwish《The Islander》",
-        movie: "《白日梦想家》(The Secret Life of Walter Mitty)",
-        poem: "\"我本欲用一生去丈量群星的距离，却未曾想，你就是我想停泊的宇宙中心。\""
+        bgm: "逃跑计划《夜空中最亮的星》",
+        movie: "《心灵奇旅》(Soul)",
+        poem: "「做一个世界的水手，奔赴所有的码头」——惠特曼《草叶集》"
       }
     },
     "金牛座": {
@@ -7352,9 +7352,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Adele《Rolling in the Deep》",
-        movie: "《教父》(The Godfather)",
-        poem: "\"我的大爱不是虚无的星光，而是你冷时的一碗热汤和你无法偿还的恩情。\""
+        bgm: "李健《父亲写的散文诗》",
+        movie: "《岁月神偷》(罗启锐)",
+        poem: "「你不是我的希望，不是的，你是你自己的希望」——海桑《给我的孩子》"
       }
     },
     "处女座": {
@@ -7445,9 +7445,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Florence + The Machine《Dog Days Are Over》",
-        movie: "《穿普拉达的女王》(The Devil Wears Prada)",
-        poem: "\"我拿着手术刀剥开你身上的腐肉，虽然我的刀很冷，但我的眼角带着泪。\""
+        bgm: "程璧《我想和你虚度时光》",
+        movie: "《触不可及》(Intouchables)",
+        poem: "「告诉你一棵稗子提心吊胆的春天」——余秀华《我爱你》"
       }
     },
     "摩羯座": {
@@ -7538,9 +7538,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The National《Fake Empire》",
-        movie: "《教父2》(The Godfather: Part II)",
-        poem: "\"我必须让自己比冬天还要冷酷，因为只有这样，我才能为你们守护春天。\""
+        bgm: "周华健《朋友》",
+        movie: "《辛德勒的名单》(Schindler's List)",
+        poem: "「先天下之忧而忧，后天下之乐而乐」——范仲淹《岳阳楼记》"
       }
     },
     "双子座": {
@@ -7631,9 +7631,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Oasis《Don't Look Back In Anger》",
-        movie: "《楚门的世界》(The Truman Show)",
-        poem: "\"我借来了一千张面孔，在这一千场热闹的戏剧里，只为寻找一个能看穿我眼底悲伤的人。\""
+        bgm: "苏打绿《小情歌》",
+        movie: "《垫底辣妹》",
+        poem: "「如何让你遇见我，在我最美丽的时刻」——席慕容《一棵开花的树》"
       }
     },
     "天秤座": {
@@ -7724,9 +7724,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Young and Beautiful》",
-        movie: "《了不起的盖茨比》(The Great Gatsby)",
-        poem: "\"我精心地修剪着花园里所有的玫瑰，却残忍地把刺都留给了我自己。\""
+        bgm: "蔡健雅《Beautiful Love》",
+        movie: "《菊次郎的夏天》(北野武)",
+        poem: "「你见，或者不见我，我就在那里，不悲不喜」——扎西拉姆·多多《班扎古鲁白玛的沉默》"
       }
     },
     "水瓶座": {
@@ -7817,9 +7817,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "David Bowie《Space Oddity》",
-        movie: "《星际穿越》(Interstellar)",
-        poem: "\"我深深地爱着你们，爱这个星球，所以我必须坐上这艘将永远无法返航的飞船。\""
+        bgm: "张悬《宝贝》",
+        movie: "《绿皮书》(Green Book)",
+        poem: "「如果我能让一颗心免于破碎，我便没有虚度此生」——狄金森"
       }
     },
     "巨蟹座": {
@@ -7910,9 +7910,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Coldplay《Fix You》",
-        movie: "《弱点》(The Blind Side)",
-        poem: "\"我用血肉为你筑起城墙，但请你，千万不要在城墙内爱上别人。\""
+        bgm: "田馥甄《小幸运》",
+        movie: "《小森林》(森淳一)",
+        poem: "「从前的日色变得慢，一生只够爱一个人」——木心《从前慢》"
       }
     },
     "天蝎座": {
@@ -8003,9 +8003,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Billie Eilish《bad guy》",
-        movie: "《教父》(The Godfather)",
-        poem: "\"我既然将你从无底的地狱中拉了上来，你就必须永远膜拜我的王座。\""
+        bgm: "张国荣《我》",
+        movie: "《熔炉》",
+        poem: "「我喜欢你是寂静的，仿佛你消失了一样」——聂鲁达《我喜欢你是寂静的》"
       }
     },
     "双鱼座": {
@@ -8096,9 +8096,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Young and Beautiful》",
-        movie: "《飞越疯人院》(One Flew Over the Cuckoo's Nest)",
-        poem: "\"我为你流尽了最后一滴眼泪，然后在干涸的河床上，开出了漫山遍野的玫瑰。\""
+        bgm: "张惠妹《听海》",
+        movie: "《海洋天堂》(薛晓路)",
+        poem: "「我达达的马蹄是美丽的错误，我不是归人，是个过客」——郑愁予《错误》"
       }
     }
   },
@@ -8191,9 +8191,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Eminem《Lose Yourself》",
-        movie: "《华尔街之狼》(The Wolf of Wall Street)",
-        poem: "\"我将粉碎一切阻挡在我面前的高墙，如果没有路，我就用鲜血和白骨铺平它。\""
+        bgm: "The White Stripes《Seven Nation Army》",
+        movie: "《角斗士》(Gladiator)",
+        poem: "「醉卧沙场君莫笑，古来征战几人回」——王翰《凉州词》"
       }
     },
     "狮子座": {
@@ -8284,9 +8284,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Zayde Wølf《Gladiator》",
-        movie: "《指环王：王者无敌》(The Lord of the Rings: The Return of the King)",
-        poem: "\"即使我的王座是由枯骨堆积而成，我也要这天下的日月星辰，都只为我一人闪耀。\""
+        bgm: "Survivor《Eye of the Tiger》",
+        movie: "《狮子王》(The Lion King)",
+        poem: "「俱往矣，数风流人物，还看今朝」——毛泽东《沁园春·雪》"
       }
     },
     "射手座": {
@@ -8377,9 +8377,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Imagine Dragons《Believer》",
-        movie: "《阿拉伯的劳伦斯》(Lawrence of Arabia)",
-        poem: "\"我不在乎他们世俗的边界，因为我的眼睛只盯着地图上那些未被标记的荒芜与星辰。\""
+        bgm: "E.S. Posthumus《Pompeii》",
+        movie: "《天国王朝》(Kingdom of Heaven)",
+        poem: "「去奋斗，去探索，去发现，永不屈服」——丁尼生《尤利西斯》"
       }
     },
     "金牛座": {
@@ -8470,9 +8470,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《Time》",
-        movie: "《大空头》(The Big Short)",
-        poem: "\"我将在这片最荒芜的沙漠里，用冰冷的数据和最赤裸的贪婪，建起一座流着奶与蜜的黄金城。\""
+        bgm: "Audiomachine《Guardians at the Gate》",
+        movie: "《华尔街》(Wall Street)",
+        poem: "「大风起兮云飞扬，威加海内兮归故乡」——刘邦《大风歌》"
       }
     },
     "处女座": {
@@ -8563,9 +8563,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Johann Johannsson《The Beast》",
-        movie: "《爆裂鼓手》(Whiplash)",
-        poem: "\"我将这世界的每一根骨头都拆开重组，我不允许有任何一丝不合逻辑的弧度存在于我的版图里。\""
+        bgm: "Clint Mansell《Lux Aeterna》",
+        movie: "《商海通牒》(Margin Call)",
+        poem: "「王师北定中原日，家祭无忘告乃翁」——陆游《示儿》"
       }
     },
     "摩羯座": {
@@ -8656,9 +8656,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Ramin Djawadi《Light of the Seven》",
-        movie: "《纸牌屋》(House of Cards)",
-        poem: "\"我并不惧怕地狱的业火，因为我所在的王座，比漫长的寒冬还要冷酷一万倍。\""
+        bgm: "Globus《Preliator》",
+        movie: "《末代皇帝》(The Last Emperor)",
+        poem: "「问苍茫大地，谁主沉浮」——毛泽东《沁园春·长沙》"
       }
     },
     "双子座": {
@@ -8749,9 +8749,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Chainsmokers《Something Just Like This》",
-        movie: "《社交网络》(The Social Network)",
-        poem: "\"我用成千上万个面具建立起的帝国，绝不允许被你们这些单线条的蠢货所看穿。\""
+        bgm: "Jay-Z《Run This Town》",
+        movie: "《对话尼克松》(Frost/Nixon)",
+        poem: "「会当凌绝顶，一览众山小」——杜甫《望岳》"
       }
     },
     "天秤座": {
@@ -8842,9 +8842,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lorde《Royals》",
-        movie: "《穿普拉达的女王》(The Devil Wears Prada)",
-        poem: "\"我一边微笑着为你倒上这杯最醇厚的红酒，一边在你看不到的地方，平静地签下了那份处决你的命令。\""
+        bgm: "Thomas Bergersen《Sun》",
+        movie: "《林肯》(Lincoln)",
+        poem: "「但使龙城飞将在，不教胡马度阴山」——王昌龄《出塞》"
       }
     },
     "水瓶座": {
@@ -8935,9 +8935,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Daft Punk《Harder, Better, Faster, Stronger》",
-        movie: "《黑客帝国》(The Matrix)",
-        poem: "\"我将抹去这颗星球上所有生锈的旧律，在绝对零度的太空里，为你们演算出一个无情但完美的永恒。\""
+        bgm: "The Prodigy《Spitfire》",
+        movie: "《钢铁侠》(Iron Man)",
+        poem: "「我是万王之王奥兹曼迪亚斯，功业盖世，强者折服」——雪莱《奥兹曼迪亚斯》"
       }
     },
     "巨蟹座": {
@@ -9028,9 +9028,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Godfather Theme《Speak Softly Love》",
-        movie: "《教父》(The Godfather)",
-        poem: "\"我将这冷硬的世界为你挡在门外，作为交换，你要把你的灵魂交付于我。\""
+        bgm: "Thomas Bergersen《Empire of Angels》",
+        movie: "《勇敢的心》(Braveheart)",
+        poem: "「三十功名尘与土，八千里路云和月」——岳飞《满江红》"
       }
     },
     "天蝎座": {
@@ -9121,9 +9121,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《The Dark Knight-Why So Serious?》",
-        movie: "《V字仇杀队》(V for Vendetta)",
-        poem: "\"我从地狱的烈火中爬上顶峰，并不是为了俯瞰众生，而是为了确保没有人能再把我踢下去。\""
+        bgm: "Massive Attack《Angel》",
+        movie: "《血色将至》(There Will Be Blood)",
+        poem: "「力拔山兮气盖世，时不利兮骓不逝」——项羽《垓下歌》"
       }
     },
     "双鱼座": {
@@ -9214,9 +9214,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Once Upon A Dream》",
-        movie: "《盗梦空间》(Inception)",
-        poem: "\"我喂给你们世界上最甜美也最致命的毒药，而在幻觉中，你们将称我为唯一的王。\""
+        bgm: "Hi-Finesse《Voyage》",
+        movie: "《沙丘》(Dune)",
+        poem: "「江畔何人初见月？江月何年初照人？」——张若虚《春江花月夜》"
       }
     }
   },
@@ -9309,9 +9309,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "AC/DC《Thunderstruck》",
-        movie: "《爆裂鼓手》(Whiplash)",
-        poem: "\"我将这世界的慵懒和虚伪通通踩碎，在我的战车碾过的地方，只允许留下绝对高效的铁证。\""
+        bgm: "信乐团《海阔天空》",
+        movie: "《中国合伙人》(陈可辛)",
+        poem: "「男儿何不带吴钩，收取关山五十州」——李贺《南园》"
       }
     },
     "狮子座": {
@@ -9402,9 +9402,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Coldplay《Viva La Vida》",
-        movie: "《华尔街之狼》(The Wolf of Wall Street) [注:ESTJ的极致狂热面]",
-        poem: "\"我的王座建立在不可违逆的规矩之上，不服从的，我将剥夺他所有的光芒。\""
+        bgm: "韩磊《向天再借五百年》",
+        movie: "《智取威虎山》(徐克)",
+        poem: "「冲天香阵透长安，满城尽带黄金甲」——黄巢《不第后赋菊》"
       }
     },
     "射手座": {
@@ -9495,9 +9495,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Foo Fighters《The Pretender》",
-        movie: "《大表哥2》(Red Dead Redemption 2)/《美国黑帮》(American Gangster) [注:冷酷开拓面]",
-        poem: "\"我将一路劈开所有的迷雾，直到这片荒野插满我的铁旗，听不从的就让他们化为灰烬。\""
+        bgm: "谭维维《华阴老腔一声喊》",
+        movie: "《中国机长》",
+        poem: "「羌笛何须怨杨柳，春风不度玉门关」——王之涣《凉州词》"
       }
     },
     "金牛座": {
@@ -9588,9 +9588,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Shirley Bassey《Goldfinger》",
-        movie: "《华尔街》(Wall Street)",
-        poem: "\"我的帝国是用纯金和钢铁浇筑而成的，没有我的允许，连风都不能带走这里的一粒尘埃。\""
+        bgm: "腾格尔《天堂》",
+        movie: "《年会不能停！》",
+        poem: "「浊酒一杯家万里，燕然未勒归无计」——范仲淹《渔家傲·秋思》"
       }
     },
     "处女座": {
@@ -9681,9 +9681,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Philip Glass《Koyaanisqatsi》",
-        movie: "《隐藏人物》(Hidden Figures) [注:极度精密而不可忽略面]",
-        poem: "\"这世界的每一条纹理都必须在我的规正之下，我容不下一粒尘埃，正如我容不下丝毫背叛。\""
+        bgm: "王力宏《龙的传人》",
+        movie: "《我不是潘金莲》(冯小刚)",
+        poem: "「为天地立心，为生民立命」——张载《横渠四句》"
       }
     },
     "摩羯座": {
@@ -9774,9 +9774,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Max Richter《On the Nature of Daylight》",
-        movie: "《血色将至》(There Will Be Blood)",
-        poem: "\"我将爬上这由骷髅铺就的阶梯，在绝对的孤寂与寒风中，为你们签发唯一冷酷的福音。\""
+        bgm: "刘欢《得民心者得天下》",
+        movie: "《长津湖》",
+        poem: "「僵卧孤村不自哀，尚思为国戍轮台」——陆游《十一月四日风雨大作》"
       }
     },
     "双子座": {
@@ -9867,9 +9867,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Måneskin《Beggin'》",
-        movie: "《华尔街：金钱永不眠》(Wall Street: Money Never Sleeps)",
-        poem: "\"我可以用花言巧语编织出让你沉醉的网，也可以用毫不犹豫的烈火将这网以及你一同烧净。\""
+        bgm: "五月天《入阵曲》",
+        movie: "《穿普拉达的女王》(The Devil Wears Prada)",
+        poem: "「千门万户曈曈日，总把新桃换旧符」——王安石《元日》"
       }
     },
     "天秤座": {
@@ -9960,9 +9960,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Young and Beautiful》",
-        movie: "《利刃出鞘》(Knives Out)",
-        poem: "\"我将微笑着为你铺好最柔软的地毯，然后毫不留情地按下将你坠下深渊的按钮。\""
+        bgm: "李克勤《红日》",
+        movie: "《辩护人》",
+        poem: "「洛阳亲友如相问，一片冰心在玉壶」——王昌龄《芙蓉楼送辛渐》"
       }
     },
     "水瓶座": {
@@ -10053,9 +10053,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Daft Punk《Tron Legacy (End Titles)》",
-        movie: "《异形：契约》(Alien: Covenant) [注:法鲨的大卫极其冷酷的面相]",
-        poem: "\"我不是为你们而生，我是为了将这片混乱腐朽的泥土，打造成一块绝对完美无瑕的芯片而降临。\""
+        bgm: "崔健《一无所有》",
+        movie: "《横空出世》",
+        poem: "「四万万人齐下泪，天涯何处是神州」——谭嗣同《有感》"
       }
     },
     "巨蟹座": {
@@ -10146,9 +10146,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Cranberries《Zombie》",
-        movie: "《黑天鹅》(Black Swan) [注:控制狂母亲面]",
-        poem: "\"我将用我最滚烫的血肉为你筑起这道城墙，只要你发誓，永远、永远也不要从墙里看外面一眼。\""
+        bgm: "成龙《男儿当自强》",
+        movie: "《万里归途》",
+        poem: "「苟利国家生死以，岂因祸福避趋之」——林则徐《赴戍登程口占示家人》"
       }
     },
     "天蝎座": {
@@ -10239,9 +10239,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Ramin Djawadi《Light of the Seven (Game of Thrones)》",
-        movie: "《教父2》(The Godfather: Part II) [注:迈克最后的冷酷面]",
-        poem: "\"我早已不再相信这世间有纯洁的白，所以我选择成为比任何人都要纯粹的黑，让你连背叛的念头都不敢有。\""
+        bgm: "屠洪刚《霸王别姬》",
+        movie: "《烈日灼心》",
+        poem: "「我自横刀向天笑，去留肝胆两昆仑」——谭嗣同《狱中题壁》"
       }
     },
     "双鱼座": {
@@ -10332,9 +10332,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Florence + The Machine《Dog Days Are Over》",
-        movie: "《了不起的盖茨比》(The Great Gatsby)",
-        poem: "\"我用极其冷酷的铁锁，为你们圈下了一座盛大的游乐园；若有人敢不笑，我便将他赐死。\""
+        bgm: "毛阿敏《历史的天空》",
+        movie: "《我和我的祖国》",
+        poem: "「念此私自愧，尽日不能忘」——白居易《观刈麦》"
       }
     }
   },
@@ -10426,9 +10426,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Avril Lavigne《Sk8er Boi》",
-        movie: "《花出少女与四重奏》(Nana) [注:大崎娜娜的烈性]",
-        poem: "\"我会在这个循规蹈矩的世界里放一把火，然后带着我所有的颜色，义无反顾地投身于那片灰烬。\""
+        bgm: "谢春花《算云烟》",
+        movie: "《七月与安生》",
+        poem: "「如果有来生，要做一棵树，站成永恒，没有悲欢的姿势」——三毛《如果有来生》"
       },
       image: "/portraits/isfp-aries.png",
     },
@@ -10519,9 +10519,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lorde《Royals》",
-        movie: "《穿普拉达的女王》(The Devil Wears Prada) [注:追求极致品味的一面]",
-        poem: "\"我将用这世界上最华贵的丝绸包裹我那极其脆弱的心，就算这世界要崩塌，我也要用最美的姿态去迎接。\""
+        bgm: "谭维维《乌兰巴托的夜》",
+        movie: "《妖猫传》(陈凯歌)",
+        poem: "「照花前后镜，花面交相映」——温庭筠《菩萨蛮》"
       },
       image: "/portraits/isfp-leo.png",
     },
@@ -10612,9 +10612,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Lumineers《Sleep On The Floor》",
-        movie: "《荒野生存》(Into the Wild)",
-        poem: "\"我将我的心脏丢在风里，那是我所能找到的，唯一没有围墙的地方。\""
+        bgm: "房东的猫《云烟成雨》",
+        movie: "《转山》",
+        poem: "「不要问我从哪里来，我的故乡在远方，为什么流浪，流浪远方」——三毛《橄榄树》"
       },
       image: "/portraits/isfp-sagittarius.png",
     },
@@ -10705,9 +10705,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Norah Jones《Don't Know Why》",
-        movie: "《小森林》(Little Forest)",
-        poem: "\"我将这世间一切迟缓的、深沉的、有厚度的美，都一针一线地缝进了我的生命里。\""
+        bgm: "小娟&山谷里的居民《细水长流》",
+        movie: "《天水围的日与夜》(许鞍华)",
+        poem: "「知否，知否？应是绿肥红瘦」——李清照《如梦令》"
       },
       image: "/portraits/isfp-taurus.png",
     },
@@ -10798,9 +10798,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Ludovico Einaudi《Experience》",
-        movie: "《莫扎特传》(Amadeus) [注:萨列里的极致痛苦与对完美的仰望]",
-        poem: "\"我拿着一把极其锋利的刻刀，一寸寸地剔去这世间的杂质，直到把我自己的灵魂也剔得伤痕累累。\""
+        bgm: "王若琳《Let's Start From Here》",
+        movie: "《刺客聂隐娘》(侯孝贤)",
+        poem: "「此情可待成追忆，只是当时已惘然」——李商隐《锦瑟》"
       },
       image: "/portraits/isfp-virgo.png",
     },
@@ -10891,9 +10891,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《Time》",
-        movie: "《入殓师》(Departures)",
-        poem: "\"我将我所有关于这世间极其炽热的梦，都极其沉默地埋在了这场极其漫长的大雪深处。\""
+        bgm: "万晓利《这一切没有想象的那么糟》",
+        movie: "《冬冬的假期》(侯孝贤)",
+        poem: "「春潮带雨晚来急，野渡无人舟自横」——韦应物《滁州西涧》"
       },
       image: "/portraits/isfp-capricorn.png",
     },
@@ -10984,9 +10984,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Troye Sivan《Youth》",
-        movie: "《伯德小姐》(Lady Bird)",
-        poem: "\"我是这世间极其烂漫的一阵风，我亲吻过整片草原，却没有留下一片极其属于我自己的叶子。\""
+        bgm: "落日飞车《My Jinji》",
+        movie: "《蓝色大门》",
+        poem: "「说是寂寞的秋的清愁，说是辽远的海的相思」——戴望舒《烦忧》"
       },
       image: "/portraits/isfp-gemini.png",
     },
@@ -11077,9 +11077,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Video Games》",
-        movie: "《花样年华》(In the Mood for Love)",
-        poem: "\"我把自己精致被动地摆放在橱窗的中心，渴望又害怕粗鲁真实充满泥点的你，不顾一切粗暴地冲进并打碎我那脆弱的和平。\""
+        bgm: "蔡健雅《红色高跟鞋》",
+        movie: "《卡罗尔》(Carol)",
+        poem: "「你有你的，我有我的，方向；你记得也好，最好你忘掉」——徐志摩《偶然》"
       },
       image: "/portraits/isfp-libra.png",
     },
@@ -11170,9 +11170,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Billie Eilish《bad guy》",
-        movie: "《银翼杀手2049》(Blade Runner 2049)",
-        poem: "\"我只是宇宙里极度出走的一串乱码的信号，偶尔好奇地在这个庸俗的星球上驻足片刻。\""
+        bgm: "陈鸿宇《途中》",
+        movie: "《大象席地而坐》",
+        poem: "「深夜一枝灯，若高山流水，有身外之海」——废名《十二月十九夜》"
       },
       image: "/portraits/isfp-aquarius.png",
     },
@@ -11263,9 +11263,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Kina Grannis《Can't Help Falling In Love》",
-        movie: "《小偷家族》(Shoplifters)",
-        poem: "\"我将所有的眼泪都藏在深海，只为能在你面前，吐露出一颗最温润的珍珠。\""
+        bgm: "陈粒《历历万乡》",
+        movie: "《被嫌弃的松子的一生》",
+        poem: "「这次我离开你，是风，是雨，是夜晚」——郑愁予《赋别》"
       },
       image: "/portraits/isfp-cancer.png",
     },
@@ -11356,9 +11356,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Weeknd《Call Out My Name》",
-        movie: "《消失的爱人》(Gone Girl) [注:极致爱恨交织的底色]",
-        poem: "\"我在悬崖边上为你跳舞，你要么与我一同坠落，要么就永远别来沾惹我。\""
+        bgm: "黄龄《痒》",
+        movie: "《燃烧》(李沧东)",
+        poem: "「问君能有几多愁？恰似一江春水向东流」——李煜《虞美人》"
       },
       image: "/portraits/isfp-scorpio.png",
     },
@@ -11449,9 +11449,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Aurora《Runaway》",
-        movie: "《水形物语》(The Shape of Water)",
-        poem: "\"如果你愿意潜入我深不见底的梦境，我将还给你一整个不会落碎的星空。\""
+        bgm: "萨顶顶《左手指月》",
+        movie: "《你的名字》(新海诚)",
+        poem: "「剪不断，理还乱，是离愁，别是一般滋味在心头」——李煜《相见欢》"
       },
       image: "/portraits/isfp-pisces.png",
     }
@@ -11544,9 +11544,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Cranberries《Zombie》",
-        movie: "《弱点》(The Blind Side)",
-        poem: "\"我提着刀为你劈开荆棘，不是为了让你臣服，只是因为我看不得你流血。\""
+        bgm: "张韶涵《隐形的翅膀》",
+        movie: "《亲爱的》(陈可辛)",
+        poem: "「岂曰无衣？与子同袍」——《诗经·无衣》"
       },
       image: "/portraits/isfj-aries.png",
     },
@@ -11637,9 +11637,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Queen《We Are The Champions》",
-        movie: "《穿普拉达的女王》(The Devil Wears Prada) [注:华丽严厉外表下的责任心]",
-        poem: "\"我高傲地戴着王冠，跪在泥泞的地板上精心地为你擦拭着战靴的光芒。\""
+        bgm: "张靓颖《我的梦》",
+        movie: "《暖春》",
+        poem: "「落红不是无情物，化作春泥更护花」——龚自珍《己亥杂诗》"
       },
       image: "/portraits/isfj-leo.png",
     },
@@ -11730,9 +11730,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Passenger《Let Her Go》",
-        movie: "《白日梦想家》(The Secret Life of Walter Mitty)",
-        poem: "\"我走向群山，行囊里装着你的创可贴，而我的眼睛，却只看着那片没有边际的天。\""
+        bgm: "羽泉《奔跑》",
+        movie: "《无问西东》",
+        poem: "「老当益壮，宁移白首之心」——王勃《滕王阁序》"
       },
       image: "/portraits/isfj-sagittarius.png",
     },
@@ -11823,9 +11823,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Diana Krall《Fly Me to the Moon》",
-        movie: "《饮食男女》(Eat Drink Man Woman)",
-        poem: "\"我固执地用泥土和柴米油盐，为你堵住了这世上所有的悲风冷雨。\""
+        bgm: "蔡琴《被遗忘的时光》",
+        movie: "《桃姐》(许鞍华)",
+        poem: "「桃之夭夭，灼灼其华。之子于归，宜其室家」——《诗经·桃夭》"
       },
       image: "/portraits/isfj-taurus.png",
     },
@@ -11916,9 +11916,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Bach《Cello Suite No. 1》",
-        movie: "《莫扎特传》(Amadeus)",
-        poem: "\"我用剔骨的尖刀，一点点雕刻着你生活里的杂质，最后却不小心划伤了我的灵魂。\""
+        bgm: "陈绮贞《家》",
+        movie: "《深夜食堂》",
+        poem: "「静女其姝，俟我于城隅」——《诗经·静女》"
       },
       image: "/portraits/isfj-virgo.png",
     },
@@ -12009,9 +12009,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《Interstellar Theme》",
-        movie: "《肖申克的救赎》(The Shawshank Redemption)",
-        poem: "\"我甘愿做一块极黑沉重的基石，只要站在我肩上的你，能真切地触摸到阳光。\""
+        bgm: "赵雷《成都》",
+        movie: "《我和我的家乡》",
+        poem: "「昼出耘田夜绩麻，村庄儿女各当家」——范成大《四时田园杂兴》"
       },
       image: "/portraits/isfj-capricorn.png",
     },
@@ -12102,9 +12102,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Taylor Swift《Anti-Hero》",
-        movie: "《天使爱美丽》(Amélie)",
-        poem: "\"我把你所有的秘密藏进风里，然后用余生为你抵挡风雨。\""
+        bgm: "范玮琪《一个像夏天一个像秋天》",
+        movie: "《阳光姐妹淘》",
+        poem: "「莫愁前路无知己，天下谁人不识君」——高适《别董大》"
       },
       image: "/portraits/isfj-gemini.png",
     },
@@ -12195,9 +12195,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Oasis《Don't Look Back In Anger》",
-        movie: "《被嫌弃的松子的一生》(Memories of Matsuko) [注:警戒过度讨好]",
-        poem: "\"我将这世界所有的破碎都缝补得极其精美，才发现，唯独漏掉了自己千疮百孔的心。\""
+        bgm: "梁静茹《宁夏》",
+        movie: "《海蒂和爷爷》(Heidi)",
+        poem: "「投我以木瓜，报之以琼琚」——《诗经·木瓜》"
       },
       image: "/portraits/isfj-libra.png",
     },
@@ -12288,9 +12288,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Radiohead《Creep》",
-        movie: "《超能陆战队》(Big Hero 6) [注:像大白一样的高科技感温柔]",
-        poem: "\"我冷静地看着这世界的焚毁，手指却不受控制地，抚平了你皱起的衣领。\""
+        bgm: "毛不易《消愁》",
+        movie: "《地球上的星星》",
+        poem: "「我下决心：用痛苦来做砝码，以人生作天平」——食指《热爱生命》"
       },
       image: "/portraits/isfj-aquarius.png",
     },
@@ -12381,9 +12381,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Adele《Someone Like You》",
-        movie: "《房间》(Room) [注:绝境中母性的可怕力量]",
-        poem: "\"我流尽了所有的眼泪为你灌溉出一座绿洲，你却说你更喜欢沙漠里的风。\""
+        bgm: "周杰伦《听妈妈的话》",
+        movie: "《你好，李焕英》",
+        poem: "「今夜月明人尽望，不知秋思落谁家」——王建《十五夜望月》"
       },
       image: "/portraits/isfj-cancer.png",
     },
@@ -12474,9 +12474,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Billie Eilish《bury a friend》",
-        movie: "《这个杀手不太冷》(Léon: The Professional)",
-        poem: "\"我愿意为你坠入地狱清剿所有的恶鬼，只要你发誓，永远只看着我一个人的眼睛。\""
+        bgm: "那英《默》",
+        movie: "《送你一朵小红花》",
+        poem: "「死生契阔，与子成说。执子之手，与子偕老」——《诗经·击鼓》"
       },
       image: "/portraits/isfj-scorpio.png",
     },
@@ -12567,9 +12567,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Young and Beautiful》",
-        movie: "《海的女儿》(The Little Mermaid) [注:原著童话般悲剧性的无私]",
-        poem: "\"我甘愿饮下你递过来的这杯鸩酒，甚至体贴地为你擦去了杯沿上残存的毒药。\""
+        bgm: "田馥甄《无人之境》",
+        movie: "《婚纱》",
+        poem: "「蒹葭苍苍，白露为霜。所谓伊人，在水一方」——《诗经·蒹葭》"
       },
       image: "/portraits/isfj-pisces.png",
     }
@@ -12662,9 +12662,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "AC/DC《Back In Black》",
+        bgm: "Royal Blood《Figure It Out》",
         movie: "《疾速追杀》(John Wick)",
-        poem: "\"我没空听你的长篇大论，我只关心我的枪械是否上膛，引擎是否温热。\""
+        poem: "「十年磨一剑，霜刃未曾试。今日把示君，谁有不平事」——贾岛《剑客》"
       },
       image: "/portraits/istp-aries.png",
     },
@@ -12755,9 +12755,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Arctic Monkeys《Do I Wanna Know?》",
-        movie: "《007：大战皇家赌场》(Casino Royale)",
-        poem: "\"我从不要求你们的跪拜，我站在这里，本身就是不可逾越的规则。\""
+        bgm: "Kaleo《Way Down We Go》",
+        movie: "《荒野猎人》(The Revenant)",
+        poem: "「相看白刃血纷纷，死节从来岂顾勋」——高适《燕歌行》"
       },
       image: "/portraits/istp-leo.png",
     },
@@ -12848,9 +12848,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Avicii《Wake Me Up》",
-        movie: "《荒野生存》(Into the Wild) [注:唯美又惨烈的寻找绝对自由]",
-        poem: "\"别问我要去哪里，只要风还在吹，我就不会停下我的脚步。\""
+        bgm: "Steppenwolf《Born to Be Wild》",
+        movie: "《飞驰人生》",
+        poem: "「沧海一声笑，滔滔两岸潮，浮沉随浪只记今朝」——黄霑《沧海一声笑》"
       },
       image: "/portraits/istp-sagittarius.png",
     },
@@ -12941,9 +12941,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Johnny Cash《Hurt》",
-        movie: "《老爷车》(Gran Torino) [注:固执但其实有原则的硬汉]",
-        poem: "\"我听见这世上嘈杂的呐喊，但我只专注于我手中冰冷的钢铁火花。\""
+        bgm: "窦唯《暮春秋色》",
+        movie: "《寿司之神》",
+        poem: "「以神遇而不以目视，官知止而神欲行，游刃有余」——庄子《庖丁解牛》"
       },
       image: "/portraits/istp-taurus.png",
     },
@@ -13034,9 +13034,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Radiohead《Paranoid Android》",
-        movie: "《机械姬》(Ex Machina) [注:的冷静与理智计算]",
-        poem: "\"我用精密的仪器测量过这世上混乱的一切，唯独测不准自己的悲哀。\""
+        bgm: "Bonobo《Kerala》",
+        movie: "《极速车王》(Ford v Ferrari)",
+        poem: "「你见过大海，你想象过大海，然后你见过了大海」——韩东《你见过大海》"
       },
       image: "/portraits/istp-virgo.jpg",
     },
@@ -13127,9 +13127,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Rolling Stones《Paint It, Black》",
-        movie: "《老无所依》(No Country for Old Men) [注:Anton Chigurh式的极致冷酷无情]",
-        poem: "\"我将冷酷的心肺换成冰冷的机械，只为能毫不手软地替你杀出一条宽广的血路。\""
+        bgm: "Rodrigo y Gabriela《Tamacun》",
+        movie: "《狂怒》(Fury)",
+        poem: "「鸟宿池边树，僧敲月下门」——贾岛《题李凝幽居》"
       },
       image: "/portraits/istp-capricorn.png",
     },
@@ -13220,9 +13220,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Prodigy《Smack My Bitch Up》",
-        movie: "《黑客帝国》(The Matrix) [注:Neo未觉醒前那种游荡的黑客内核]",
-        poem: "\"我像千万只闪烁的屏幕一样无法捕捉，但也像断电后的黑屏一样一无所有。\""
+        bgm: "Foo Fighters《The Pretender》",
+        movie: "《偷拐抢骗》(Snatch)",
+        poem: "「林暗草惊风，将军夜引弓」——卢纶《塞下曲》"
       },
       image: "/portraits/istp-gemini.png",
     },
@@ -13313,9 +13313,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Arctic Monkeys《Do I Wanna Know?》",
-        movie: "《皇家赌场》(Casino Royale) [注:邦德那种穿着燕尾服杀人的优雅与冷酷]",
-        poem: "\"我用最考究的天鹅绒为你编织了绞刑架，只求在落幕时保证你我都体面。\""
+        bgm: "Tycho《Awake》",
+        movie: "《谍影重重》(The Bourne Identity)",
+        poem: "「柴门闻犬吠，风雪夜归人」——刘长卿《逢雪宿芙蓉山主人》"
       },
       image: "/portraits/istp-libra.png",
     },
@@ -13406,9 +13406,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Daft Punk《Harder, Better, Faster, Stronger》",
-        movie: "《回到未来》(Back to the Future) [注:Doc Brown那种疯狂的机械发明家]",
-        poem: "\"你们在向神明祈祷，而我只想拆开神明的心脏，看看里面的齿轮如何咬合。\""
+        bgm: "Aphex Twin《Windowlicker》",
+        movie: "《机械姬》(Ex Machina)",
+        poem: "「黑夜给了我黑色的眼睛，我却用它寻找光明」——顾城《一代人》"
       },
       image: "/portraits/istp-aquarius.png",
     },
@@ -13499,9 +13499,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Eric Clapton《Tears in Heaven》",
-        movie: "《这个杀手不太冷》(Léon: The Professional) [注:Leon冷酷但对Mathilda无限温柔的护巢本能]",
-        poem: "\"我用粗糙的双手为你打磨出世上最坚固的盾，只为在冰冷的黑夜里你能睡得更沉。\""
+        bgm: "The xx《Intro》",
+        movie: "《杀手没有假期》(In Bruges)",
+        poem: "「千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪」——柳宗元《江雪》"
       },
       image: "/portraits/istp-cancer.png",
     },
@@ -13592,9 +13592,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Massive Attack《Angel》",
-        movie: "《谍影重重》(The Bourne Identity) [注:Jason Bourne式的冷血执行与绝不留情]",
-        poem: "\"我听见整个世界都在向我虚伪地撒谎，所以我选择用手里发烫的枪管代替他们回答。\""
+        bgm: "Massive Attack《Teardrop》",
+        movie: "《这个杀手不太冷》(Léon)",
+        poem: "「黑云压城城欲摧，甲光向日金鳞开」——李贺《雁门太守行》"
       },
       image: "/portraits/istp-scorpio.jpg",
     },
@@ -13685,9 +13685,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Jóhann Jóhannsson《The Theory of Everything》",
-        movie: "《剪刀手爱德华》(Edward Scissorhands) [注:笨拙的物理毁灭外壳与纯粹的悲伤内核]",
-        poem: "\"我用冷若冰霜的钢筋铁骨，为你小心翼翼地别扭地折出了一朵开在废墟上的铁蔷薇。\""
+        bgm: "Mac DeMarco《Chamber of Reflection》",
+        movie: "《不求上进的玉子》",
+        poem: "「青箬笠，绿蓑衣，斜风细雨不须归」——张志和《渔歌子》"
       },
       image: "/portraits/istp-pisces.png",
     }
@@ -13780,9 +13780,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Black Keys《Lonely Boy》",
-        movie: "《全金属外壳》(Full Metal Jacket) [注:严厉且暴躁的那种硬核规则感]",
-        poem: "\"我将用怒吼与烈火，为这充满谎言的废墟烧出一条笔直的轨道。\""
+        bgm: "郑智化《水手》",
+        movie: "《集结号》(冯小刚)",
+        poem: "「粉骨碎身浑不怕，要留清白在人间」——于谦《石灰吟》"
       },
       image: "/portraits/istj-aries.png",
     },
@@ -13873,9 +13873,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Coldplay《Viva La Vida》",
-        movie: "《国王的演讲》(The King's Speech) [注:有着极高地位但同时备受严密礼节束缚的压抑]",
-        poem: "\"我坐在这孤高且冰冷无瑕的王座上，用俯视众生来抵御骨子里的颤抖。\""
+        bgm: "汪峰《存在》",
+        movie: "《我不是药神》",
+        poem: "「人生自古谁无死，留取丹心照汗青」——文天祥《过零丁洋》"
       },
       image: "/portraits/istj-leo.jpg",
     },
@@ -13966,9 +13966,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Eagles《Hotel California》",
-        movie: "《白日梦想家》(The Secret Life of Walter Mitty) [注:刻板沉闷的小职员最终走向壮阔的远方]",
-        poem: "\"我的双脚被死死地钉在这乏味的账本上，但我的灵魂早已经惨烈地走遍了八荒。\""
+        bgm: "周华健《真心英雄》",
+        movie: "《攀登者》",
+        poem: "「欲穷千里目，更上一层楼」——王之涣《登鹳雀楼》"
       },
       image: "/portraits/istj-sagittarius.png",
     },
@@ -14059,9 +14059,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Pink Floyd《Money》",
-        movie: "《华尔街》(Wall Street) ",
-        poem: "\"我将用世上最沉重、最冰冷的钢铁，为你铸造一座连神明都无法攻破的城池。\""
+        bgm: "老狼《同桌的你》",
+        movie: "《活着》(张艺谋)",
+        poem: "「久在樊笼里，复得返自然」——陶渊明《归园田居》"
       },
       image: "/portraits/istj-taurus.jpg",
     },
@@ -14152,9 +14152,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Radiohead《Creep》",
-        movie: "《异形》(Alien) ",
-        poem: "\"我试图用世界上最精密的镊子，把生活里所有的疼痛都一根根拔除，最终却拔空了整个灵魂。\""
+        bgm: "林海《琵琶语》",
+        movie: "《秋菊打官司》(张艺谋)",
+        poem: "「问渠那得清如许？为有源头活水来」——朱熹《观书有感》"
       },
       image: "/portraits/istj-virgo.png",
     },
@@ -14245,9 +14245,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《Time》",
-        movie: "《教父2》(The Godfather: Part II) ",
-        poem: "\"我踏着冰凉刺骨的尸骨一步步走向沉寂的王座，因为我清楚，在深不见底的绝望谷底，只有残忍才能换来可悲的生存。\""
+        bgm: "刘欢《从头再来》",
+        movie: "《钢的琴》",
+        poem: "「不畏浮云遮望眼，自缘身在最高层」——王安石《登飞来峰》"
       },
       image: "/portraits/istj-capricorn.jpg",
     },
@@ -14338,9 +14338,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Twenty One Pilots《Stressed Out》",
-        movie: "《楚门的世界》(The Truman Show) ",
-        poem: "\"我用精准的秒表，给一阵虚无的风计算着下落的速度。\""
+        bgm: "陈奕迅《单车》",
+        movie: "《十二公民》",
+        poem: "「随风潜入夜，润物细无声」——杜甫《春夜喜雨》"
       },
       image: "/portraits/istj-gemini.png",
     },
@@ -14431,9 +14431,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Sade《Smooth Operator》",
-        movie: "《007：大战皇家赌场》(Casino Royale) ",
-        poem: "\"我礼貌地为你拉开椅子、倒上红酒，然后得体地向你宣判了死局。\""
+        bgm: "蔡琴《恰似你的温柔》",
+        movie: "《白鹿原》",
+        poem: "「海内存知己，天涯若比邻」——王勃《送杜少府之任蜀州》"
       },
       image: "/portraits/istj-libra.png",
     },
@@ -14524,9 +14524,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Kraftwerk《The Robots》",
-        movie: "《银翼杀手2049》(Blade Runner 2049) ",
-        poem: "\"我的代码完美无瑕没有丝毫报错，但你为什么说，我是一台空洞的废铁？\""
+        bgm: "李志《天空之城》",
+        movie: "《全民目击》",
+        poem: "「我劝天公重抖擞，不拘一格降人才」——龚自珍《己亥杂诗》"
       },
       image: "/portraits/istj-aquarius.png",
     },
@@ -14617,9 +14617,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Hans Zimmer《Time》",
-        movie: "《老爷车》(Gran Torino) ",
-        poem: "\"我用沉默为你垒起一面抵御寒风的墙，却忘了在墙上留一扇让你呼吸的窗。\""
+        bgm: "刘德华《回家的路》",
+        movie: "《饮食男女》(李安)",
+        poem: "「慈母手中线，游子身上衣」——孟郊《游子吟》"
       },
       image: "/portraits/istj-cancer.png",
     },
@@ -14710,9 +14710,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Ramin Djawadi《Light of the Seven》",
-        movie: "《七宗罪》(Se7en) ",
-        poem: "\"我在地狱的入口处为你登记造册，每一个罪恶的标点符号，我都算得清清楚楚。\""
+        bgm: "那英《白天不懂夜的黑》",
+        movie: "《唐山大地震》(冯小刚)",
+        poem: "「生当作人杰，死亦为鬼雄」——李清照《夏日绝句》"
       },
       image: "/portraits/istj-scorpio.png",
     },
@@ -14803,9 +14803,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Alexander Desplat《The Heroic Weather-Conditions of the Universe》",
-        movie: "《剪刀手爱德华》(Edward Scissorhands) ",
-        poem: "\"我熟练地把眼泪拧成了干瘪的报表，只为了在这坚硬的世界上扮演一个合格的大人。\""
+        bgm: "韩红《天亮了》",
+        movie: "《人生大事》",
+        poem: "「野火烧不尽，春风吹又生」——白居易《赋得古原草送别》"
       },
       image: "/portraits/istj-pisces.jpg",
     }
@@ -14898,9 +14898,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Macklemore & Ryan Lewis《Can't Hold Us》",
-        movie: "《疯狂的麦克斯：狂暴之路》(Mad Max: Fury Road) ",
-        poem: "\"我把我的青春点燃，只为听那一声震耳欲聋的巨响。\""
+        bgm: "蔡依林《舞娘》",
+        movie: "《舞出我人生》(Step Up)",
+        poem: "「力哟！力哟！力的绘画，力的舞蹈」——郭沫若《立在地球边上放号》"
       },
       image: "/portraits/esfp-aries.png",
     },
@@ -14991,9 +14991,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Bruno Mars《24K Magic》",
-        movie: "《了不起的盖茨比》(The Great Gatsby) ",
-        poem: "\"我要这世界所有的光，都只为我一人打下来。\""
+        bgm: "周杰伦《最伟大的作品》",
+        movie: "《波西米亚狂想曲》(Bohemian Rhapsody)",
+        poem: "「红给了我热情，黄教我以忠义」——闻一多《色彩》"
       },
       image: "/portraits/esfp-leo.png",
     },
@@ -15084,9 +15084,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Avicii《The Nights》",
-        movie: "《爱乐之城》(La La Land) ",
-        poem: "\"我在这尘世间走一遭，只为尝一口那最甘甜也最浓烈的酒。\""
+        bgm: "MC HotDog《差不多先生》",
+        movie: "《宿醉》(The Hangover)",
+        poem: "「命里有时终须有，命里无时莫强求」——黄霑《浪子心声》"
       },
       image: "/portraits/esfp-sagittarius.jpg",
     },
@@ -15177,9 +15177,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《National Anthem》",
-        movie: "《蒂凡尼的早餐》(Breakfast at Tiffany's) ",
-        poem: "\"我饮尽这世间最甘甜的鸩酒，只为在这盛大的末日狂欢中，死得最具风情。\""
+        bgm: "魏如萱《你啊你啊》",
+        movie: "《美食、祈祷和恋爱》(Eat Pray Love)",
+        poem: "「昼短苦夜长，何不秉烛游」——《古诗十九首》"
       },
       image: "/portraits/esfp-taurus.png",
     },
@@ -15270,9 +15270,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Taylor Swift《Blank Space》",
-        movie: "《黑天鹅》(Black Swan) ",
-        poem: "\"我用十二万分的精心打磨每一寸羽毛，却忘了最动人的飞翔往往源于一次笨拙的踉跄。\""
+        bgm: "王心凌《爱你》",
+        movie: "《横道世之介》",
+        poem: "「温柔之必要，肯定之必要，一点点酒和木樨花之必要」——痖弦《如歌的行板》"
       },
       image: "/portraits/esfp-virgo.png",
     },
@@ -15363,9 +15363,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Madonna《Material Girl》",
-        movie: "《华尔街之狼》(The Wolf of Wall Street) ",
-        poem: "\"我戴着最艳丽的面具在舞池中央发了疯似地旋转，因为我知道，这是我通往你头上那顶皇冠的最快捷径。\""
+        bgm: "林俊杰《不为谁而作的歌》",
+        movie: "《一个明星的诞生》(A Star Is Born)",
+        poem: "「今朝有酒今朝醉，明日愁来明日愁」——罗隐《自遣》"
       },
       image: "/portraits/esfp-capricorn.png",
     },
@@ -15456,9 +15456,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Red Hot Chili Peppers《Can't Stop》",
-        movie: "《楚门的世界》(The Truman Show)",
-        poem: "\"我像一阵发了疯的风扫过一万座花园，最后却记不起任何一朵花的香。\""
+        bgm: "潘玮柏《快乐崇拜》",
+        movie: "《BJ单身日记》(Bridget Jones)",
+        poem: "「用世界上最轻最轻的声音，轻轻地唤你的名字每夜每夜」——纪弦《你的名字》"
       },
       image: "/portraits/esfp-gemini.png",
     },
@@ -15549,9 +15549,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Kylie Minogue《Can't Get You Out Of My Head》",
-        movie: "《红磨坊》(Moulin Rouge!)",
-        poem: "\"我打碎自己缝制了一张最精美的面具，然后在无人的深夜里，对着这张面具痛哭流涕。\""
+        bgm: "萧亚轩《潇洒小姐》",
+        movie: "《公主日记》(The Princess Diaries)",
+        poem: "「有一个未来的目标，总能让我们欢欣鼓舞」——汪国真《嫁给幸福》"
       },
       image: "/portraits/esfp-libra.png",
     },
@@ -15642,9 +15642,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Prodigy《Smack My Bitch Up》",
-        movie: "《猜火车》(Trainspotting)",
-        poem: "\"我披散着通电的头发在这无聊的人间乱撞，只为寻找一个能懂我那古怪频段的雷达。\""
+        bgm: "华晨宇《好想爱这个世界啊》",
+        movie: "《马戏之王》(The Greatest Showman)",
+        poem: "「我乃旷野里独来独往的一匹狼，恒以数声凄厉已极之长嗥摇撼天地」——纪弦《狼之独步》"
       },
       image: "/portraits/esfp-aquarius.png",
     },
@@ -15735,9 +15735,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Adele《Make You Feel My Love》",
-        movie: "《被嫌弃的松子的一生》(Memories of Matsuko)",
-        poem: "\"我把你从寒冷的街头捡起，用我的血肉为你生火，却忘了问你会不会在火旺时将我推入火坑。\""
+        bgm: "A-Lin《给我一个理由忘记》",
+        movie: "《喜剧之王》(周星驰)",
+        poem: "「我的爱情，仅仅是一束被你的眼神紧紧握住的玫瑰」——洛夫《因为风的缘故》"
       },
       image: "/portraits/esfp-cancer.png",
     },
@@ -15828,9 +15828,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Weeknd《Earned It》",
-        movie: "《原罪》(Original Sin)",
-        poem: "\"我笑着将匕首藏在送你的玫瑰里，你不流血，我怎么知道你对我是真心。\""
+        bgm: "尚雯婕《最终信仰》",
+        movie: "《黑天鹅》(Black Swan)",
+        poem: "「过尽千帆皆不是，斜晖脉脉水悠悠，肠断白蘋洲」——温庭筠《梦江南》"
       },
       image: "/portraits/esfp-scorpio.png",
     },
@@ -15921,9 +15921,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Coldplay《A Sky Full Of Stars》",
-        movie: "《天使爱美丽》(Amélie)",
-        poem: "\"我将这清醒的人间灌醉，只为在众人的鼾声中，独自跳完这支没人看懂的舞。\""
+        bgm: "邓紫棋《泡沫》",
+        movie: "《大鱼海棠》",
+        poem: "「在涛声中唤你的名字而你的名字已在千帆之外」——洛夫《烟之外》"
       },
       image: "/portraits/esfp-pisces.png",
     }
@@ -16016,9 +16016,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Queen《We Are The Champions》",
-        movie: "《弱点》(The Blind Side)",
-        poem: "\"我把你护在身后，用胸膛迎向所有的风暴，却忘了问你是否更想在雨中肆意奔跑。\""
+        bgm: "凤凰传奇《最炫民族风》",
+        movie: "《心花路放》",
+        poem: "「桑柘影斜春社散，家家扶得醉人归」——王驾《社日》"
       },
       image: "/portraits/esfj-aries.png",
     },
@@ -16109,9 +16109,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Whitney Houston《Greatest Love Of All》",
-        movie: "《马戏之王》(The Greatest Showman)",
-        poem: "\"我赐予你们宴席与阳光，我为所有人披上金色的华服，唯独把最深的孤独锁在了自己的王冠里。\""
+        bgm: "张惠妹《姊妹》",
+        movie: "《了不起的盖茨比》(The Great Gatsby)",
+        poem: "「去年元夜时，花市灯如昼」——欧阳修《生查子·元夕》"
       },
       image: "/portraits/esfj-leo.png",
     },
@@ -16202,9 +16202,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Pharrell Williams《Happy》",
-        movie: "《音乐之声》(The Sound of Music)",
-        poem: "\"我拉着你的手在悬崖边上疯狂大笑，只为了盖住底下深渊里传来的那声叹息。\""
+        bgm: "大壮《我们不一样》",
+        movie: "《泰囧》",
+        poem: "「山回路转不见君，雪上空留马行处」——岑参《白雪歌送武判官归京》"
       },
       image: "/portraits/esfj-sagittarius.png",
     },
@@ -16295,9 +16295,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Norah Jones《Come Away With Me》",
-        movie: "《朱莉与朱莉娅》(Julie & Julia)",
-        poem: "\"我用满仓的粮食和烧得通红的壁炉为你筑起堡垒，你却只想要一阵能吹走一切的穿堂风。\""
+        bgm: "田震《好大一棵树》",
+        movie: "《相爱相亲》(张艾嘉)",
+        poem: "「开轩面场圃，把酒话桑麻」——孟浩然《过故人庄》"
       },
       image: "/portraits/esfj-taurus.png",
     },
@@ -16388,9 +16388,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Clean Bandit《Symphony》",
-        movie: "《穿普拉达的女王》(The Devil Wears Prada)",
-        poem: "\"我拿着尺子丈量你生活里的每一丝灰尘，企图抹去所有的错，却唯独将你逼出了我的世界。\""
+        bgm: "梁静茹《亲亲》",
+        movie: "《海鸥食堂》",
+        poem: "「夜来风雨声，花落知多少」——孟浩然《春晓》"
       },
       image: "/portraits/esfj-virgo.png",
     },
@@ -16481,9 +16481,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Godfather《Speak Softly Love》",
-        movie: "《教父》(The Godfather)",
-        poem: "\"我用钢铁和鲜血为你筑起了这座城，你却哭着说，这里没有一扇能够飞出鸟的窗。\""
+        bgm: "费玉清《一剪梅》",
+        movie: "《妈妈的神奇小子》",
+        poem: "「惨惨柴门风雪夜，此时有子不如无」——黄景仁《别老母》"
       },
       image: "/portraits/esfj-capricorn.png",
     },
@@ -16574,9 +16574,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Taylor Swift《Blank Space》",
-        movie: "《了不起的盖茨比》(The Great Gatsby)",
-        poem: "\"我穿梭在五光十色的酒杯之间，对着每个人微笑，却在转身的瞬间，忘了自己的名字。\""
+        bgm: "蔡依林《日不落》",
+        movie: "《北京遇上西雅图》",
+        poem: "「浮云一别后，流水十年间」——韦应物《淮上喜会梁川故人》"
       },
       image: "/portraits/esfj-gemini.png",
     },
@@ -16667,9 +16667,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "John Legend《All of Me》",
-        movie: "《面纱》(The Painted Veil)",
-        poem: "\"我努力把每一滴水都端平，最后却淹死了那个在杯底求救的自己。\""
+        bgm: "莫文蔚《如果没有你》",
+        movie: "《我的野蛮女友》",
+        poem: "「东边日出西边雨，道是无晴却有晴」——刘禹锡《竹枝词》"
       },
       image: "/portraits/esfj-libra.png",
     },
@@ -16760,9 +16760,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Oasis《Don't Look Back In Anger》",
-        movie: "《模仿游戏》(The Imitation Game)",
-        poem: "\"我站在十光年外的地方为你点燃所有的星辰，在你不解风情的眼里，这只不过是一场没有温度的雨。\""
+        bgm: "毛不易《像我这样的人》",
+        movie: "《奇迹·笨小孩》",
+        poem: "「些小吾曹州县吏，一枝一叶总关情」——郑燮《潍县署中画竹》"
       },
       image: "/portraits/esfj-aquarius.png",
     },
@@ -16853,9 +16853,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Celine Dion《My Heart Will Go On》",
-        movie: "《房间》(Room)",
-        poem: "\"我卸下所有的铠甲，用柔软的血肉为你构建了抵御风雪的温巢，你却怪里面太暗。\""
+        bgm: "王铮亮《时间都去哪儿了》",
+        movie: "《如父如子》(是枝裕和)",
+        poem: "「少小离家老大回，乡音无改鬓毛衰」——贺知章《回乡偶书》"
       },
       image: "/portraits/esfj-cancer.png",
     },
@@ -16946,9 +16946,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Billie Eilish《bury a friend》",
-        movie: "《消失的爱人》(Gone Girl)",
-        poem: "\"我为你除尽了世间所有的毒蛇，却亲手打造了这座只属于你我的华丽囚牢。\""
+        bgm: "林忆莲《当爱已成往事》",
+        movie: "《亲爱的房客》",
+        poem: "「曾经沧海难为水，除却巫山不是云」——元稹《离思》"
       },
       image: "/portraits/esfj-scorpio.png",
     },
@@ -17039,9 +17039,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Lana Del Rey《Video Games》",
-        movie: "《美丽人生》(Life Is Beautiful)",
-        poem: "\"我闭着眼走向你燃起的大火，只因为你说那是唯一能让我取暖的日出。\""
+        bgm: "张靓颖《终于等到你》",
+        movie: "《忠犬八公的故事》",
+        poem: "「两情若是久长时，又岂在朝朝暮暮」——秦观《鹊桥仙》"
       },
       image: "/portraits/esfj-pisces.png",
     }
@@ -17134,9 +17134,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "AC/DC《Highway to Hell》",
-        movie: "《疯狂的麦克斯：狂暴之路》(Mad Max: Fury Road)",
-        poem: "\"我把生命当成筹码全盘押上，只为在燃烧的轮胎和轰鸣的引擎声中，向死神借一个狂吻。\""
+        bgm: "AC/DC《Thunderstruck》",
+        movie: "《极盗车神》(Baby Driver)",
+        poem: "「这是我此刻仅能征服的高度了」——昌耀《峨日朵雪峰之侧》"
       },
       image: "/portraits/estp-aries.jpg",
     },
@@ -17227,9 +17227,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Kanye West《POWER》",
-        movie: "《华尔街之狼》(The Wolf of Wall Street)",
-        poem: "\"我披上金色的铠甲在万众瞩目中大杀四方，却不敢脱下战袍让你们看到我带血的伤疤。\""
+        bgm: "Guns N' Roses《Welcome to the Jungle》",
+        movie: "《壮志凌云》(Top Gun)",
+        poem: "「他年我若为青帝，报与桃花一处开」——黄巢《题菊花》"
       },
       image: "/portraits/estp-leo.png",
     },
@@ -17320,9 +17320,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Avicii《The Nights》",
-        movie: "《荒野生存》(Into the Wild)",
-        poem: "\"我饮下这杯穿堂风，跨上那不知道开往哪里的列车，不要问我的归期，因为我根本没打算回来。\""
+        bgm: "AC/DC《Highway to Hell》",
+        movie: "《疯狂的麦克斯：狂暴之路》",
+        poem: "「一川碎石大如斗，随风满地石乱走」——岑参《走马川行》"
       },
       image: "/portraits/estp-sagittarius.png",
     },
@@ -17413,9 +17413,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "ABBA《Money, Money, Money》",
-        movie: "《教父2》(The Godfather Part II)",
-        poem: "\"我用黄金为你打造了一座不夜城，你却问我，这金砖里有没有跳动的心脏。\""
+        bgm: "Imagine Dragons《Thunder》",
+        movie: "《勇士》(Warrior)",
+        poem: "「采得百花成蜜后，为谁辛苦为谁甜」——罗隐《蜂》"
       },
       image: "/portraits/estp-taurus.png",
     },
@@ -17506,9 +17506,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Arctic Monkeys《Do I Wanna Know?》",
-        movie: "《汉尼拔》(Hannibal)",
-        poem: "\"我在你最致命的软肋上划下了最完美的等高线，却不敢抬头看一眼你那双充满着不可控变量的眼睛。\""
+        bgm: "The Prodigy《Breathe》",
+        movie: "《天才枪手》",
+        poem: "「射人先射马，擒贼先擒王」——杜甫《前出塞》"
       },
       image: "/portraits/estp-virgo.png",
     },
@@ -17599,9 +17599,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Imagine Dragons《Natural》",
-        movie: "《权力的游戏》(Game of Thrones) - 泰温·兰尼斯特",
-        poem: "\"我踏着你们的背脊登上了最高的雪峰，在被冻死之前，终于看清了自己是一个怎样的怪物。\""
+        bgm: "Eminem《Lose Yourself》",
+        movie: "《华尔街之狼》(The Wolf of Wall Street)",
+        poem: "「江东子弟多才俊，卷土重来未可知」——杜牧《题乌江亭》"
       },
       image: "/portraits/estp-capricorn.jpg",
     },
@@ -17692,9 +17692,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Eminem《Without Me》",
-        movie: "《猫鼠游戏》(Catch Me If You Can)",
-        poem: "\"我把真理和谎言混在酒里卖给了全世界，却在数钱时忘了自己最开始的模样。\""
+        bgm: "The Hives《Hate to Say I Told You So》",
+        movie: "《王牌特工》(Kingsman)",
+        poem: "「欲将轻骑逐，大雪满弓刀」——卢纶《塞下曲》"
       },
       image: "/portraits/estp-gemini.png",
     },
@@ -17785,9 +17785,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Weeknd《Starboy》",
-        movie: "《华丽上班族》(Office)",
-        poem: "\"我把你滚烫的真心碾成了最鲜艳的口红，然后在下一个黎明到来前，毫不留情地吻了别人。\""
+        bgm: "Maroon 5《Moves Like Jagger》",
+        movie: "《十一罗汉》(Ocean's Eleven)",
+        poem: "「十年一觉扬州梦，赢得青楼薄幸名」——杜牧《遣怀》"
       },
       image: "/portraits/estp-libra.png",
     },
@@ -17878,9 +17878,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Nirvana《Smells Like Teen Spirit》",
-        movie: "《搏击俱乐部》(Fight Club)",
-        poem: "\"我把你信奉的神像一脚踹翻，在满地碎屑中为你指出那条他们一直藏起来的、通向深渊的绝美航线。\""
+        bgm: "Beastie Boys《Sabotage》",
+        movie: "《头号玩家》(Ready Player One)",
+        poem: "「沉舟侧畔千帆过，病树前头万木春」——刘禹锡《酬乐天扬州初逢席上见赠》"
       },
       image: "/portraits/estp-aquarius.jpg",
     },
@@ -17971,9 +17971,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "P!nk《F**kin' Perfect》",
-        movie: "《金刚狼3：殊死一战》(Logan)",
-        poem: "\"我为你披挂上了一身最狰狞的铁甲，因为我怕你知道，我只是一只还没断奶的幼兽。\""
+        bgm: "Linkin Park《In the End》",
+        movie: "《叶问》",
+        poem: "「一年三百六十日，多是横戈马上行」——戚继光《马上作》"
       },
       image: "/portraits/estp-cancer.png",
     },
@@ -18064,9 +18064,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "The Rolling Stones《Paint It, Black》",
-        movie: "《搏击俱乐部》(Fight Club)",
-        poem: "\"我们在最毒的荆棘丛中赤身裸体地狂舞，只要你流出的血还有温度，我就当做那是你绝望的发誓。\""
+        bgm: "Rammstein《Du Hast》",
+        movie: "《无间道》",
+        poem: "「风萧萧兮易水寒，壮士一去兮不复还」——荆轲《易水歌》"
       },
       image: "/portraits/estp-scorpio.jpg",
     },
@@ -18157,9 +18157,9 @@ export const reportData: Record<string, Record<string, ReportContent>> = {
         }
       },
       media: {
-        bgm: "Ed Sheeran《Shape of You》",
-        movie: "《阿飞正传》(Days of Being Wild)",
-        poem: "\"我为你流下的眼泪是真的，我在下一个清晨毫不犹豫买上的那一班离开你的船票，也是真的。\""
+        bgm: "Tame Impala《The Less I Know the Better》",
+        movie: "《加勒比海盗》(Pirates of the Caribbean)",
+        poem: "「未老莫还乡，还乡须断肠」——韦庄《菩萨蛮》"
       },
       image: "/portraits/estp-pisces.png",
     }
